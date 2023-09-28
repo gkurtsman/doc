@@ -1,0 +1,1102 @@
+﻿I. Staff:
+0) Sysadmins:
+Seva:          128
+Sergey         131
+Aleksandr      125
+
+1) Bosses:
+Аркадий Павлович Панфилов		к.306, panfilov@module.ru
+						+7 905 724 2866
+Черников Владимир Михайлович     	к.306, tchern@module.ru
+Фомин Дмитрий Викторович          	dfomin@module.ru, У лифта рядом с бухгалтерией
+Адамов Андрей Анатольевич		директор, adamov@module.ru
+Чугунова Тамара Кузьминична		зам.директора, room# 251, local tel. 141.
+						ctk@module.ru
+Кузнецова Светлана Александровна	главбух
+Захватов Михаил Васильевич		Аппаратчики
+Егисапетов Эдуард Григорьевич		kei@module.ru
+Челпанова Ольга Дмитриевна		плановый отдел	к.305
+	(Елена Семёновна - работает с договором с Ауригой)
+Ворошилов Виктор Юрьевич - АХО, комн. 259, тел. 106,
+Попов Иван Васильевич - нач. АХО, комн. 308(?)
+Елена Юрьевна - staff department.
+
+2) Laboratory:
+
+Сектор П331
+
+Дмитрий (Д.А.) Спесивцев                    dmitry@module.ru программирование NM, моделирование NM, 30.
+					+7 916 645 46 27
+					wwx_fallout@mail.ru
+					vacation: 2015-08-03 .. 2015-08-30.
+Алексей А. Бирюков                   home: (495)449-14-09; cell:
+				 (967)214-61-17 LeshaBirukov@yandex.ru средства разработки,
+				 моделирование,  NM, библиотека Рузавина, 53.
+				vacation: (13-09-09 till 13-09-22)
+
+Сергей Юрьевич Петровский               загрузка, тесты АРМ.
++7 916 848 26 45, (495) 680 44 29, sergeyypetrovsky@gmail.com, sypetrov@module.ru
+, 8 916 563 51 24 - Людмила (жена), 45
+					p3tr0v
+				vacation: (2015-07-27 .. 2015-08-16)
+Александр Анатольевич Субботин            aasubbot@module.ru , Linux, тесты Linux'a,
+					системные программы, +7 903 708 5213, 43,5.
+					a2subb$8
+			vacation: 2015-07-01 .. 2015-08-31
+Владимир Викторович Дементьев.
+				(915)156-02-71
+				demvv90@yandex.ru
+3) Other staff:
+Косоруков Дима (железо ЦУПП)                                     к.306, dkos@module.ru
+	(926)557-5965
+Алексей Эйсымонт (Железо АРМ)                                     к.306
+Илья Насонов (Загрузчик через USB)                                 к.306
+	(929)627-01-87
+Александр Шелухин (Железо и архитектура NeuroMatrix)		к.306, sheluhin@module.ru
+Павел Викснэ (Железо и архитектура NeuroMatrix)			к.306, pvixne@module.ru
+Елена Алексеевна Харламова					к.306, lenax@module.ru
+Николай Валерьевич Розов
+
+Сергей Владимирович Свешников					к. Паши Шевченко.
+Анатолий Сергеевич Громов - разъёмы. Kомната перед коленом, если идти по коридору от
+лифта на 4 этаже.
+Фонин Юрий		+7 906 7159781			phonin@rambler.ru, emulators/simulators
+Андрей Владимирович Андрианов
+				+7 915 358 9568
+
+
+Маркетинг:
+Илья Савинков:		savinkov@module.ru
+Татьяна Лысенко:	ltl@module.ru
+ 
+4) Students:
+Андрей Владимирович Бродяженко (МИФИ)
+				(968) 784 6502
+Булат Венерович Абузаров (МИФИ) (985) 440 7699
+		bulat1717@yandex.ru
+		login: b.abuzarov
+Марат Илдусович Гарафутдинов
+		+7 916 250 9736
+		Garafutdinov@me.com
+Валентин Андреевич Монаков
+		+7 910 482 2044
+		monakov_va@mail.ru
+
+5) Customers:
+Дядьков Николай Александрович: - Каменск-Уральский
+			      - Уральский Политехнический Институт (Екатеринбург).
+			      (343)-375-4887, (343)-375-9754
+			      +7-922-214-4008 - cell
+			      NickAD@yandex.ru
+Жучкин Сергей Фёдорович - клиент от Захватова
+(499)-530-12-12
++7 916 317 4129
+
+MCST:
+Гумер Мигнатович Тухватуллин	(499) 135 2349 (раб.)
+			(903) 196 6619 (моб.)
+			gumer@mcst.ru
+Евгений Кравцунов	(916) 415-16-85
+			kravtsunov_e@mcst.ru
+Лариса Григорьевна Тарасенко	larissa@mcst.ru
+				(499) 135-33-51
+Андрей Александрович Соловской	Andrei.A.Solovskoi@mcst.ru
+
+Селеджи Григорий Циронович	812 499 7593
+				921 910 1778
+				921 967 2078
+INET:
+	Володя Сидоренко: e-mail: v.i.s1@ya.ru
+			  skype: v1vans
+
+Питер, организация, которой передали mc6901_support-2.0:
+	Бочковский Андрей Леонардович, e-mail: abotchkovski@softnav.ru
+
+Луч:
+	Романов Александр Алексеевич
+		+7 926 118 28 07
+		alexromanoviv@ya.ru
+
+6) Third Party partners:
+
+Стас (gcc specialist) - stas@icenet.ru
+
+auriga:
+
+117589, Москва, Варшавское шоссе, д. 125, стр. 16А
+tel: +7(495)713-9900
+fax: +7(495)939-0300
+www.auriga.com
+
+Сергей Морковин (one of bosses)		-	morkovin@auriga.ru
+Вячеслав Ванюлин (директор по		-	vyacheslav.vanyulin@auriga.ru;
+технологиям и управлению проектами)		(495)713-9900,add.301;
+						cell.+7(916)114-5317
+Геннадий Махов					gm@auriga.com;
+(директор по развитию бизнеса)			(495)713-9900,add.306;
+						cell.+7(916)625-5761
+
+Михаил Кононов (gcc specialist)		-	michael.kononov@auriga.ru
+						cell.+7(916)680-4355
+						(495)939-4212, add.533.
+Дмитрий Степанов (gcc specialist)	-	dmitry.stepanov@auriga.ru
+
+MSU:
+Vladimir Prus				-	+7-903-202-18-26
+						ghost@cs.msu.su
+
+RTSoft:
+Жданов Алексей Алексеевич		-	jdanov@dev.rtsoft.ru
+
+Олег Фаридович Нуретдинов			+7 926 068 9864
+(технический писатель)				xon_xoff@ru.ru
+						xon_xoff@mail.ru
+Воронеж-модуль:
+m_vadim@modulew.ru - Мажулин Вадим Владимирович, директор.
+ak@modulew.ru - Александр Кораблинов (имя в локальной сети module.ru: a.korablinov)
+vetrov@modulew.ru - Вячеслав Ветров (запрос получения доступа к локальной сети
+		module.ru уже отправлен)
+dsa@modulew.ru - Дмитрий Арсентьев (имя в локальной сети module.ru: d.arsentyev) 
+
+Микросет:
+Боровиченко:
++7 905 599 0487
+
+Бомштейн:
++7 (495) 783-41-88 (ext. 23)
++7 (906) 789 47 91
+        личный: +7 916 678 1683
+
+II. Module equipment configuration
+1) mail:
+Receiving Mail – via POP, servers – mail, No security, POP port – 110, SMTP port – 25, No security, without username and password.
+
+2) Module printers configuring:
+printer in room #306
+10.7.1.20
+hp:/net/hp_LaserJet_1320_series?ip=10.7.1.20
+
+printer in 3d floor niche:
+P2015
+10.7.1.14
+
+3) common servers:
+dragon - Windows; Note: dragon is equal to watusi
+hedin - Windows;
+dss - Windows;
+chinkara - linux rhel4.
+oryx - linux rhel4
+liner - linux repo for gcc. (as for mail)
+wind - Windows serfer for gcc (10758911)
+watusi - linux RHEL 6.5
+addax - linux RHEL 6.5. Connected to Palladium.
+oribi - silicons verilog models simulator.
+bubalus - silicons verilog models simulator more powerful than oribi.
+
+ARM tools: /opt/pcad/ARM/rvds40/RVCT/Programs/4.0/400/linux-pentium/*
+/home/sypetrov – S.Petrovsky programs;
+home/sypetrov/tests – his tests;
+home/sypetrov/tests_wk/xusb_read_test/ - usb on verilog, thumb asm sources.
+home/sypetrov/tests_wk/usb_read_test/ - usb on verilog, asm sources.
+ARM documentation:
+dragon:/home/eisymont/ARMdoc/
+
+4) servers in our room:
+naiad	ma.bore|a
+	acess naiad via nautilus:
+	using linux access: sftp://naiad/home/nmlab
+	using samba scess: smb://naiad/exchange
+skat         user gkurtsman       passwd: 
+					old: gk1on1skat
+					new: <rtsoft>
+	sourcesafe: server: skat port: 8080
+maia	linuc01
+ceres	
+quantum gbml,dncml
+
+5) private computers:
+pluton (windows, username: common , password: common) - Alexey Eisymont,
+	/Knowledge\ Base/ARM/FASP/SP/USB - usb on BBP doc.
+ariel (windows) - Alexey Biryukov
+
+6) Proxy definition in Linux:
+export http_proxy=http://username:password@proxy:80
+export ftp_proxy=http://username:password@proxy:80
+
+7) ICQ port: 5190 or 443.
+
+8) Xerox/Scanner in room #306 (back part):
+	HP LaserFet 3052.
+
+8a) Printer HPLIP:
+su -c 'hp-setup'
+
+9) Scanner: CMS conversion error, ICC error
+to install all accessible icc rpms (with yum).
+sRGB conversion works with xsane.
+othre conversions work with simple scanning program.
+
+10)MCST servers:
+
+remote: 'ssh module@ch2pc-5.mcst.ru'
+in Module:
+10.7.12.27
+login: root
+passwd: f2line.
+
+powerswitch in Module:
+telnet 10.7.16.28
+login: user
+password: user28
+<menu>...
+
+powerswitch for mc12101 in my room:
+10.7.16.34
+
+Login: user1
+
+Password: User12 
+
+11) Sound:
+Error message at my computer (F19) ALSA sound/pci/hda/hda_intel.c:1805 0000:00:1b.0: no codecs initialized
+to try:
+su -c 'eCho "options snd-hda-intel model=auto" > /etc/modprobe.d/snd-hda-intel.conf
+
+12) MC76.01 boards in our sector.
+N6 - Krushnyakov;
+N14 - MFTI;
+N8 - on DMZ server;
+
+
+13) Server for MFTI:
+194.190.196.172
+
+powerswitch:
+194.190.196.173
+login: user
+passwd: X1fkxq
+
+mc6901:
+ip - 194.190.196.174
+mask - 255.255.255.0
+GW 194.190.166.65
+
+III. ARM works:
+1) pb1176jzf-s on naiad:
+cu S0@38400
+flash erase image u-boot-armfromgit
+flash run NFU
+manage dhcpc start   OR   manage ifconfig eth0 10.7.16.18
+manage map n 10.7.16.23
+flash write image n:u-boot-armfromgit
+<reset>
+flash run u-boot-armfromgit
+
+2) ICE:
+/opt/ARM/IDEs/Eclipse/local_plugins/eclipse/plugins/com.arm.eclipse.cdt.debug.rvi.core.linux_1.0.18/os/linux/x86/arm-none-eabi-gdb
+/opt/ARM/RVI/Tools/3.3/103/programs/linux-pentium/rviconfigip
+/opt/ARM/RVDS/Projects/4.0/17/ARM\ RealView\ Development\ Boards/_ebMPCore/rvd/rvi.rvc
+ICE and GDB initiation is described in ice_gdb_init.txt file.
+
+3) ARM-NMC library:
+arm-linux-c++ -Wall ../../arm/src/nmcload.o -o sync_test_host sync_test_host.cpp -I ../../arm/include/
+
+4) pb1176jzf-s u-boot
+u-boot-arm.git,
+include/configs/energizer.h
+board/energizer
+cpu/arm1176
+ip address          10.7.16.22
+
+5) Licensed SDK for ARM on bubalus server:
+/opt/pcad/ARM/rvds40/RVCT/Programs/4.0/400/linux-pentium/*
+to start licensed tools:
+to execute:
+- ~/.flexlmrc        (it contains: ARMLMD_LICENSE_FILE=27010@pluton:27001@saiga:27000@saiga)
+- ~nasonov/bubalus.setup.RVDS40env.posh,
+- /home/eisymont/ARM/RVCT/Programs/4.0/400/linux-pentium/armasm ...
+
+6) Serial interface programming (Ilya Plekhanov):
+\\dragon\home\ipl\shared\gcc
+directories:
+prj – contains all necessary functions and testing modules.
+        asm-c – Assembler and C functions interface;
+        ram-int – working with serial controller interrupts;
+        ROM_remap – initial bootloader in ROM remapping;
+        uart – working without serial controller interrupts, with registers polling;
+utils – utilities for making hex file (vhx) from elf.
+xx_pr – uart functions are the same as in prj, but testing modules differ.
+        arch – arm is softlink to arm11;
+        devices – the same uart functions;
+        examples – the same uart testing;
+        lib – object files for linking.
+
+7) SPI programming.
+	- PL022 manual;
+	- p.138 of PB manual: chip select control register;
+	- p. 68 of PB manual: mention of SSP device;
+	- p. 28 of PL022 manual: SPI protocol ant time diagrams;
+	- p. 45 of PL022 manual: SSP registers;
+
+8) Tarmac: visualisation of software behaviour on hardware Verilog model.
+
+9) BBP tests work.
+	- uart bootloader. Branches:
+		host_for_rombootloader in CUPPLibLoad_PC repo;
+		host_for_rombootloader in u-boot-armdev repo.
+	- dmac test:
+		/home/eisymont/projects/BBP_r0p2/perith_tests_latest/dmac_test;
+		/home/eisymont/projects/BBP_r0p2/perith_tests_latest/dmac_new_test;
+	- frequencies programming:
+		/home/eisymont/projects/BBP_r0p2/perith_tests_latest/clock_gear...;
+		/home/eisymont/projects/BBP_r0p2/perith_tests_latest/memory_2_banks_test;
+10) rom-bootloader build:
+cd bootloader_w/
+bin/build.sh
+
+11) MC6901 software reset:
+outb ((inb(0xfff8a000) & 0xff),0xfff8a000);
+outb ((inb(0xfff8a010) | 0x10), 0xfff8a010);	// DDR1 reg, GPIO15 dir = out
+outb ((inb(0xfff8a000) & 0xef), 0xfff8a000);	// PDR1 reg, GPIO15 val = 0
+
+X18[18] <-> X16[16]
+
+12) u-boot for linux has to be located at 0x46000000 address
+
+13) u-boot variables:
+look at 'u-boot-varsforlinux.txt' file.
+
+14). USB benchmarking.
+
+14.1) ARM-host transmitting.
+14.1.1) 2 MB is transmitted via USB using DMAC. Program - in SDRAM, DATA - in DDR RAM.
+                   2.95 s
+14.1.2) 2 MB is transmitted via USB using DMAC. Program and data - in DDR RAM.
+                   3.10 s
+14.1.3) 2 MB is transmitted via USB using CPU. Program and data - in DDR RAM.
+                   11.22 s
+14.1.4) 2 MB is transmitted via USB using DMAC. Program - in SDRAM, DATA - in DDR RAM.
+        CPU frequency - 320 MHz
+		   2.82 s
+14.2.) ARM-host receiving.
+
+14.2.1) 2 MB is receiving via USB using DMAC. Program and data - in DDR RAM.
+		   2.4 s
+14.2.2) 2 MB is receiving via USB using CPU. Program and data - in DDR RAM.
+		   9.9 s
+14.2.3) 2 MB is receiving via USB using DMAC. Program - in SDRAM, DATA - in DDR RAM.
+        CPU frequency - 320 MHz
+		   2.4 s
+14.3) CDC on mc6901-host channel:
+	630 KBps - reading
+	820 KBps - writing
+
+15). fixed IP addressed for our boards:
+10.7.16.16	- taken by DS.
+10.7.16.17	- ICE
+10.7.16.18	- taken by GK for rndis & DCTS
+10.7.16.19	- taken by AAS.
+10.7.11.38 (mask 255.255.0.0)	- taken by SYP
+
+16). SD card parameters:
+246 heads, 40 sectors/track, 1590 cylinders.
+start - 1; end - 1591; blocks 7819264.
+
+17). RTC on mc6901:
+spi.2 - connected with RTC;
+DS3234 - RTC type.
+
+18) mc127.01 ethernet (tftp) data rate:
+	180 KBps on 2 MB file.
+
+IV. NMx works:
+1) C++ (nmcc) on naiad:
+export NEURO=/home/les/neuro/ 
+export PATH=$PATH:/home/les/neuro/bin
+nmcc nmcpart_sync_test.cpp ../../../nmc/sync/nmclib.lib -cnmc.cfg -I../../../nmc/sync \
+-6405 -m -g -O1 -Snoexec >run
+<to edit run: to remove space after -O, if is appeared>
+<if there are asm files in input list, -Snoasmcpp is necessary>
+<-O0 (or 1,2) is needed for new compiler using>
+<preproc utility is necessary only for old C compiler>
+bash -b run
+
+2) functions of START code:
+2.1) stack installation;
+2.2) calling of Linker's functions ctor and dtor.
+
+ASM (asm) on naiad.
+makefile content:
+-----------------------------------------------------------------
+all: MC431_linux.elf
+
+MC431_linux.elf:
+	/home/gkurtsman/Tools/isNMSDK/eclipse/bin/asm -oInit_mc431.obj
+Init_mc431.asm
+	/home/gkurtsman/Tools/isNMSDK/eclipse/bin/asm -omc431_load.obj
+mc431_load.asm
+	/home/gkurtsman/Tools/isNMSDK/eclipse/bin/lnk   -omc431_startup.elf
+Init_mc431.obj mc431_load.obj
+
+clean:
+	-$(RM) $(OBJS) $(DEPS) MC431_linux.elf
+
+.PHONY: all clean dependents
+-----------------------------------------------------------------
+
+3) mc431 distrib:
+//skat/exchange/mc431_distrib\(en\)\_041123.zip
+
+4) server with nmx boards:
+\\maia
+
+5) Remarks to nmsdk installation:
+	- if installation pathname contains space wrong environment variable
+	  is made;
+	- DLLs' names MSVCP80.DLL and MSVCR80.DLL in MS visual studio 8 aren't
+	  found; "C:\Program Files\Microsoft Visual Studio8\Common7\Tools\Bin\Depends.Exe" has to be used.
+	- try to install redistib of VC8
+
+6) NMSDK for linux is on 'naiad' server.
+6.1. Distro:
+naiad:/home/nmlab/soft/nmsdk/linux/static/current/bin/* - '/bin' only
+non-bin - on Skat server.
+
+6.2. current bin directory:
+/home/nmlab/soft/nmsdk/linux/static/current/bin/
+
+6.3. Working variant:
+/home/les/neuro/lib/
+
+7) LLC testing resulting comp:
+\\kravtsov
+
+8) NMlibs examples:
+nmplc - [c]onstants
+nmpli - [i]mages
+nmplm - [m]atrix
+nmpls - [s]ignals
+nmplv - [v]ectors
+nmtl - miscellaneous
+
+9) NMSDK distrib for NM6405:
+\\skat\exchange\nmsdk\nmsdk300ru_<DATE>.exe and .zip
+
+10) PPDL in SDK debugger build:
+tree in VSS: NMSDK;
+subtrees: debugger
+             ppdl
+             project
+             targets
+to start project rightclick rebuild on its name (Windows, VS8).
+
+11) High level language for NM vector processor programming:
+\\Dragon\docum\nmsdk\nmvcpl
+
+12) DSPPU.
+12.1) Concerning program language:
+Google search keywords: 
+reconfigurable channel program language standard
+
+13) abs to bin files formats convertion:
+objcopy -I elf32-little -O binary initnmc.abs initnmc.bin
+
+(objcopy supported formats: use
+
+objcopy --help
+
+command).
+
+14) bin to include files convertion:
+
+xxd -i initnmc.bin >initnmc.h
+
+15) nm-ide
+15.1. nm-gdb
+15.1.1. log in file:
+	gdb_simu.log
+15.1.2. target daemon:
+15.1.2.1. simulator:
+nm-stub-6405-simulator share/nm-ide/targets/mc5101/libsimulator.so 0 \
+~/Develop/nmide_projects/Factorial/factorial/bin/nm/debug/architecture-6405/nm-optimization-low/factorial.smap
+15.1.2.2. target:
+it's just my guess, but it behaves reasonable so:
+bin/nm-stub-6405-target factorial.smap share/nm-ide/targets/mc5101/libtarget.so
+
+15.1.3. gdb has to be built using:
+$source/gdb/configure" --target=nm-elf && make -j2
+
+15.1.4. stubs have to be built using:
+export BOOST_BUILD_PATH=<path to user-config.jam file>
+look at ./gdb-stub-build.sh in this directory
+boost-build/bjam --build-dir="$build/plumbing" --prefix="$install" install > "$build/plumbing.log"
+NOTEs:
+1) user-config.jam file hasn't to be in $HOME directory.
+2) user-config.jam file has to contain the following string:
+      using gcc : arm : arm-none-linux-gnueabi-g++ ;
+3) boost-build/bjam toolset=gcc-arm
+
+15.1.5. copy <name>.install directory on target
+15.1.6. to make /etc/ld.so.conf file and ld.so.conf.d directory.
+15.1.7. to execute ldconf program
+15.1.8. examples:
+	Desktop/vbox_shared/Develop/nm-gdb/nm-gdb-test/
+
+
+15.2. smap file has to be created from map file using utility
+nm-generate-memory-map ~/Develop/nmide_projects/Factorial/NM_part.map > ~/Develop/nmide_projects/Factorial/NM_part.smap
+
+15.3. nm-generate-memory-map is built by plumbing, look into
+plumbing.log
+
+16) nmsdk build
+
+16.1. to look at gcc predefined macros:
+
+$ cpp -dM /dev/null
+#define __i386__ 1 
+#define __i386 1 
+#define i386 1 
+#define __unix 1 
+#define __unix__ 1 
+#define __ELF__ 1 
+#define unix 1 
+.......
+
+17. nmgcc (nm-gcc)
+17.1. to build nm-gcc on centos mpc has to be installed.
+For this "epel" repo has to be added to yum by own package.
+After that mpc and all libmpc hav to be installed.
+
+18. ARCH names and aliases:
+
+Л1879ВМ1 (NM6403),
+1879ВМ4Я (NM6405)
+К1879ВМ5Я (NM6406) 
+
+V. Tools:
+1) VirtualBox USB problem:
+2009-07-01 18:08:20 changed by rogue7  ¶
+Host: Fedora 11 Guest: Windows XP Pro
+Finally got what i needed to get usb support. It works.
+
+1 – create a new group called “usb”; 2 – locate file usbfs: in my case is
+/sys/bus/usb/drivers (I suggest to find the file with a usb device inserted; 3
+– modify file /etc/fstab inserting a line containing the right path and the
+number corresponding the “usb” group : none /sys/bus/usb/drivers usbfs
+devgid=503,devmode=664 0 0 4 – command mount -a; 5 – start VB and try…;
+
+The same as above is at: http://www.derekhildreth.com/blog/how-to-install-virtualbox-on-fedora-10-tutorial/
+
+2) VIM stuff:
+-hex view and edition
+:1,$!xxd
+
+-vi: howto dos and unix files
+Convert from dos/unix to unix
+
+To convert the current file from any mixture of CRLF/LF-only line endings, so all lines end with LF only:
+:update 	Save any changes.
+:e ++ff=dos 	Edit file again, using dos file format ('fileformats' is ignored).[A 1]
+:setlocal ff=unix 	This buffer will use LF-only line endings when written.[A 2]
+:w 	Write buffer using unix (LF-only) line endings.
+
+Convert from dos/unix to dos
+
+To convert the current file from any mixture of CRLF/LF-only line endings, so all lines end with CRLF only:
+:update 	Save any changes.
+:e ++ff=dos 	Edit file again, using dos file format ('fileformats' is ignored).[A 1]
+:w 	Write buffer using dos (CRLF) line endings. 
+
+3) Autoconf:
+- doc is at ~/Documents/autoconf_investigation/autoconf.pdf
+- site is at http://www.gnu.org/software/autoconf/
+- order of Autoconf macros: p.19
+- autoscan: p.19
+- autoconf: p.21
+
+4) Windows: Dbgview.exe - prints debug messages, including driver's those.
+
+5) Windows: Depends.exe - dependent DLLs searching.
+
+6) VS10 (Visual Studio 2010):
+	smb://dss/software/windows/_all_CADs
+7) svn:
+http://svn/<repo name>
+repo_name - в нижнем регистре. Наши совпадают с багзиллой.
+
+8) KchmViewer:
+	chm files.
+
+VI. Module archive:
+1) ssh dragon
+2) then from Dragon:
+smbclient \\\\Dragon\\docum -U gkurtsman
+3) to ask specification on docum making a record in \\\\Dragon\\docum\\Archive\\"Журнал..."
+4) after receiving the spec in \\\\Dragon\\Archive\\gkurtsman
+to fill requirement in the "Журнал..." and call
+109
+5) then wait until the documentation appears in
+\\\\Dragon\\docum\\Archive\\gkurtsman
+6) Archive docs numbers:
+ЮФКВ.30085-01		soft for MC51.01
+ЮФКВ.30086-01		soft for MC69.01
+ЮФКВ.230-2010		soft for BBP
+ЮФКВ.30096-01		ПО ИНИЦИАЛИЗАЦИИ МОДУЛЯ МС69.01 И ПРОВЕРКИ МЕЗОНИНА MC69.05
+"Эмулятор программный микропроцессора 1879ВМ1" ЮФКВ.10125-01 Спецификация
+"Эмулятор программный микропроцессора 1879ВМ4" ЮФКВ.10126-01 Спецификация
+ЮФКВ.30088-01		Процессор ВСП2 (Такая папка на докуме).
+ЮФКВ.10138-01   Микросхема интегральная ЦУПП. Программное обеспечение. ОС Linux. Внутриядерный драйвер интерфейса ARM-NMC3.
+             33 01     Руководство программиста.
+             002ФЛ	Архив исходных текстов.
+Remark: above is DCTS (UEMD)
+
+ЮФКВ.30112	Набор библиотечных программ загрузки и организации обмена.
+ЮФКВ.30113	Средства разработки функционального программного обеспечения (без компилятора C++).
+ЮФКВ.30122-01	Инструментальное программное обеспечение процессорного ядра NeuroMatrix Core 4
+ЮФКВ 30123-01   Операционная система реального времени для модуля на СБИС ЦУПП
+ЮФКВ.30124-01	ПО Поддержки MC51.03
+ЮФКВ.30142-01	ИНИЦИАЛИЗАЦИИ МОДУЛЯ МС76.01 И ПРОВЕРКИ СЕТЕВОЙ КАРТЫ MC69.05
+ЮФКВ.30141-01	программное обеспечение поддержки МОДУЛЯ  мс76.01
+ЮФКВ.30143-01	ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ИНИЦИАЛИЗАЦИИ МОДУЛЯ МС121.01
+ЮФКВ.30140-01	программное обеспечение поддержки МОДУЛЯ  мс121.01
+
+VII. Windows stuff:
+1) API function for buffer syncing: FlushFileBuffers();
+2) Dbgview or DebugView - utility to print drivers messages and userland
+messages.
+3) Printing from libraries: libusb-win... is good example. Look at
+src/windows.c, function usb_error(). Text itself appears in bottom window
+of VC after debug stops.
+4) Windows 7 activization:
+look at 'google drive' or module's 'smb://hedin/Disks/w7_sp1/soft/Windows-Loader-v2.2.zip'
+
+VIII. Life
+1) Water filter: key in room #268 (written on the barrel lid);
+                 go up on far stair till top.
+2) Otguly:
+	vacation (formal) 18.07.2016-31.07.2016
+		+ 10 otgulov
+		- 1 debt
+		- 2 otgula 19,20 .07.2016.
+		- 1 otgul 19.01.2016
+	working at Satruday 10.12.2016:
+		+1 otgul.
+		-1 otgul 07.02.2017
+		-1 otgul 17.02.2017
+
+3) bicycle comp wheel size:
+1860
+
+IX. Linux
+1) Howto determine current distro:
+cat /etc/*release
+OR
+cat /etc/issue
+
+2) gdb help and tricks.
+2.1) array filling:
+(gdb) print memset (address, value, size)
+2.2) array printing:
+(gdb) x/<count><b | x | d | ...><b | h | w | g | 8 bytes>
+help x  - explains perfectly
+2.3) coredump, ubuntu 20.04
+file location: /var/lib/apport/coredump/<filename>
+gdb command: gdb <executable> <core-filei>
+	or
+			gdb <executable> -c <core-file>
+	or
+	gdb <executable>
+	(gdb) core <core-file>
+
+2.3)	set logging on
+	set logging file FILE
+	etc. look 'info gcb->', search log.
+2.4) something like tracing:
+	watch $pc
+2.5) processes/threads debugging:
+	set follow-fork-mode {parent | child | ask}
+	show follow-fork-mode
+
+	set follow-exec-mode {new | same}
+	catch exec
+
+	set scheduler-locking {on | off}
+	show scheduler-locking
+
+	gdb PROGRAM <pid>
+2.6) printing without stop.
+	set pagination off
+
+2.7) coredump view
+coredupctl gdb
+
+3) services manage:
+systemctl
+
+4) system, kernel etc.  messages:
+journalctl
+
+5) Transliteration in xterm:
+5.1) setxkbmap -layout us,ru -variant basic,phonetic -option -option grp:switch,grp:alt_shift_toggle,grp_led:scroll
+5.2) 
+ё - #
+Ё - $
+ж - v
+ч - =
+ш - [
+щ - ]
+ъ - %
+Ъ - ^
+ь - x
+э - \
+ю - ~
+я - q
+ абвгдеёжзийклмнопрстуфхцчшщъыэюя
+
+6) Ethernet over USB on host.
+
+6.1) driver:
+/lib/modules/2.6.32.26-175.fc12.i686/kernel/drivers/net/usb/usbnet.ko
+
+6.2) To add file /etc/sysconfig/network-scripts/ifcfg-usb0 :
+____________________________
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+DEVICE=usb0
+BOOTPROTO=none
+NETMASK=255.255.255.0
+TYPE=Ethernet
+# HWADDR=06:50:73:F4:9F:7E
+IPADDR=10.7.16.200
+IPV6INIT=no
+PREFIX=24
+ONBOOT=yes
+USERCTL=yes
+NM_CONTROLLED=yes
+HOTPLUG=yes
+____________________________
+
+
+6.3) Network hotplug script:
+
+/etc/sysconfig/network-scripts/net.hotplug
+
+6.4) To set env variable $(INTERFACE)=usb0 and export it.
+6.5) To make sure the file /var/lock/subsys/network exist. If not, to create it.
+6.6) Then to start eth over usb on target and host. To make shure usb0 interface
+     has IP address.
+6.7) modules:
+	cdc_eem
+	usbnet
+have to work correctly after last connection. If it isn't sure rmmod them.
+6.8) to start ping via usb0 interface on host. This makes FS loading tremendously faster.
+
+6.9) bonnie++ cross installation:
+$ ./configuration --help
+
+to set environment variables:
+$ export CXX=arm-linux-g++
+
+to execute 'configure' for cross building and 'make' (cross):
+./configure --host --host-alias=mc6901
+
+sudo ./configure --prefix=/opt/eldk_arm/arm/usr/local (??? the
+      prefix may be is unnecessary)
+
+sudo make CXX=/opt/eldk_arm/usr/bin/arm-linux-g++
+
+copy all directory bonnie++ to /opt/eldk_arm/arm/...
+then accomplish resident 'make install'
+.
+
+6.10) usb0 lost ipaddress periodically.
+	NetworkManager has to be stopped or configured so, that usb0 would be excluded (I don't know how).
+6.11) usb0, access to other subnetwork via host attached to this and other subnetworks.
+	 route on host with 192.168.2.0 and 10.7.0.0 networks:
+[gkurtsman@Ceres ~]$ route
+
+????
+
+6.12) usb0, access from node (10.7.16.29) of other subnetwork (10.7.0.0/255.255.0.0, see previous point)
+	to device attached to usb0.
+	route on node of other subnetwork:
+man@gkurtsman tmp]$ route -n
+
+????
+
+6.13) on embedded linux:
+192.168.2.0     *               255.255.255.0   U     0      0        0 usb0
+10.7.0.0        192.168.2.34    255.255.0.0     UG    0      0        0 usb0
+default         10.7.16.26      0.0.0.0         UG    0      0        0 eth0
+default         192.168.2.34    0.0.0.0         UG    0      0        0 usb0
+
+7). RAM-disk boot (initrd, initramfs)
+look at 'initramfs-for-embeddedLinux.txt' file. 
+
+8). To start rc.d script:
+- to put script into init.d with start, stop, state, etc options (in internet "rc.d" keyword);
+- to make softlink with update-rc.d utiliy (for some UNIX systems).
+
+9). To configure date setting:
+#		system-config-date
+
+9.1). yum
+9.1.1). yumdownloader - downloads rpm from yum repo.
+9.1.2). yum-utils - yum utilits, such as yumdownloader
+9.1.3). centos: enhanced packets: epel repo has to be installed using yum.
+9.4). archives for old Fedora versions:
+           http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/
+
+           http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/x86_64/os/
+	   http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/x86_64/debug/
+	   http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/source/SRPMS/
+
+10). Linux filesystem on sdcard make:
+10.1). dd if=/dev/zero of=./<file> bs=65536
+10.2). mke2fs ./<file>
+10.3). cp <Linux filesystem dir> ./<file>
+10.4). sudo dd if=./<file> of=/dev/<sdcard device>
+
+11). mkisofs:
+mkisofs -r -R -l -J -L -o mc6901_support-2.0.iso mc6901_support-2.0
+
+12). code conversion:
+iconv -f=<source code> -t<target code> <file> >...
+
+code in nmsdk sources comments is CP1251 or WINDOWS-1251.
+in messages of asm, nmcpp, etc. it can be:
+866, 866NAV, CP866, CP866NAV, CSIBM866, IBM866, IBM866NAV
+
+13). directory sorting:
+
+for i in `ls *.mp3`; do cp "$i" /path/to/disk/;sync; done
+
+14). Sound:
+aplay - playing, see man,
+arecord - recording, see man.
+
+15). F19 nfs:
+15.1). server
+sudo yum -c /home/gkurtsman/yum.conf install nfs-utils.x86_64
+systemctl start rpcbind.service
+systemctl start nfs-server.service 
+systemctl start nfs-lock.service 
+systemctl start nfs-idmap.service 
+
+systemctl enable rpcbind.service
+systemctl enable nfs-server.service 
+systemctl enable nfs-lock.service 
+systemctl enable nfs-idmap.service 
+
+15.2). client
+systemctl start rpcbind.service
+systemctl start nfs-lock.service 
+systemctl start nfs-idmap.service 
+systemctl start nfs-mountd.service 
+
+systemctl enable rpcbind.service
+systemctl enable nfs-lock.service 
+systemctl enable nfs-idmap.service 
+systemctl enable nfs-mountd.service 
+
+
+16). F19 iptables:
+sudo systemctl status iptables
+sudo systemctl stop iptables
+sudo systemctl status iptables
+
+17). removed files restoring:
+
+18). mounting without lock:
+mount -t nfs -o nolock ...
+
+$ grep --binary-files=text --context=x 'stringfromyourfile' \
+    /dev/whateverPartition > someFile.txt
+
+19). Kermit with Minicom, works only with real UART, not FTDI.
+19.1). RPM:
+	ckermit.x86_64
+19.2). Calling cmd:
+	ctrl-A-o  ----> File transfer protocols   -----> kermit
+
+		/usr/bin/kermit /home/gkurtsman/.kermrc -i -l %l -b %b -s
+19.3). .kermrc contents:
+	set line /dev/ttyS0
+	set speed 38400
+	set carrier-watch off
+	set handshake none
+	set flow-control none
+	robust
+	set file type bin
+	set file name /home/gkurtsman/yum.conf
+	set rec pack 1000
+	set send pack 1000
+	set window 5
+19.4).  U-Boot command: loadb [offset]
+19.5). Description:
+	http://www.denx.de/wiki/view/DULG/SystemSetup#Section_4.3.
+20). udev
+Автоматизировать выставление прав можно через udev
+Нужно создать файл /etc/udev/rules.d/10-local.rules
+следующего содержания
+
+KERNEL=="ttyACM*", MODE="0666"
+
+затем перезагрузить правила
+
+udevadm control --reload-rules
+
+21). scanner command utilities:
+
+scanimage
+sane-find-scanner
+simple-scan
+
+22). man search:
+apropos <text>
+
+23). remote big files copy:
+rsync utility.
+
+24). remove space in file names
+
+for f in *\ *; do mv "$f" "${f// /_}"; done
+
+25). pdf files merge(combine) and separate:
+sudo dnf install poppler-utils
+pdfseparate ColoringBook.pdf ColoringBook-page_%03d.pdf
+pdfseparate -f 3 -l 9 ColoringBook.pdf ColoringBook-page_%03d.pdf
+pdfunite ColoringBook-page_3.pdf ColoringBook-page_7.pdf NewColoringBook.pdf
+pdfunite *.pdf all.pdf
+
+26). to upgrade Fedora:
+sudo dnf upgrade --refresh
+
+27). installation linux on UEFI:
+google search string:
+blocking Linux installation by firmware
+
+28). scp with options:
+scp -o User=gena Makefile.config gena:/home/gena/Develop/comp_vision/dnn/caffe_intel/
+
+29). image view with CLI:
+$ eog <name>
+
+30). battery state with CLI
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+or
+fedora and ubuntu: install acpi package
+
+$ acpi
+
+31). json files viewer:
+
+jq . <filename>
+
+32). GPU utilities:
+https://www.cyberciti.biz/open-source/command-line-hacks/linux-gpu-monitoring-and-diagnostic-commands/
+
+32.1.
+sudo lshw -C display -short
+
+32.2.
+lspci -v
+
+32.3.
+glmark2 – Stress-testing GPU performance on Linux
+
+glmark2 is an OpenGL 2.0 and ES 2.0 benchmark command-line utility. We can install it as follows:
+$ sudo apt install glmark2
+
+Now run it as follows:
+$ glmark2
+
+32.4.
+gpustat – A simple tool to get Nvidia GPU stats on Linux and FreeBSD Unix
+
+$ pip install gpustat
+
+$ gpustat
+
+or
+
+$ gpustat -cp
+
+32.5.
+intel_gpu_top – Displying a top-like summary of Intel GPU usage on Linux
+
+$ sudo apt install intel-gpu-tools
+## CentOS/RHEL/Fedora Linux user try the dnf command ##
+$ sudo dnf install intel-gpu-tools
+
+$ sudo intel_gpu_top
+
+32.6.
+nvidia-smi – NVIDIA System Management Interface program
+
+$ apt install nvidia-smi
+
+$ nvidia-smi -q -g 0 -d UTILIZATION -l 1
+$ sudo nvidia-smi
+
+32.7.
+nvtop – NVIDIA GPU top
+
+$ apt install nvtop
+
+$ nvtop
+
+32.8.
+radeontop – Tool to show AMD GPU utilization on Linux
+
+$ sudo apt install radeontop
+
+$ sudo radeontop
+
+33. ps : using ps for printing arguments of working process.
+
+ps -fp <pid>
+
+33.
+torrent cli utility:
+
+ctorrent
+
+14.
+$ find Music/ -name *.mp3 -exec file {} \;
+
+X. python
+
+workon
+
+1) lifehacks:
+
+1.1) virtual virtualenv:
+
+1.2) type of data:
+type (var)
+dir (var)
+
+2) pdb
+
+2.1)
+python -m pdb <file> <args>
+
+2.2) lifehacks
+p var
+if it prints "object at 0x7f84520c4440> try
+p var()
+
+to print var type details:
+pp var
+
+XI. deep learning
+
+1) Viewing Pytorch weights from a *.pth file
+
+import torch
+
+model = torch.load('path')
+print(model)
+

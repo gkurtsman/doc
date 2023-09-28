@@ -1,0 +1,471 @@
+module_board #pri bootargs
+bootargs=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+module_board #pri bootcmd
+bootcmd=run linuxload
+module_board #set linuxload $(linuxload_win)
+module_board #pri
+baudrate=38400
+bootfile="/work/tftpboot/realview"
+ethaddr=00:02:F7:00:19:17
+ipaddr=10.1.77.77
+gatewayip=10.1.77.1
+serverip=10.1.77.36
+bootdelay=2
+llc=flr 50000 ce9c 401e0000; go 401e04cc 2
+filesize=480
+freq_load=flr 69000 2c4 c0070000; go c0070000
+kernel_load=flr 50000 480 c0060000; go C0060030 40060000
+bootcmd=run linuxload
+linuxload_flw=run kernel_load; flw 80000 1fffff 40060000
+linuxload_mvl=set bootargs $(bootargs_mvl); run freq_load; run kernel_load; bootm 40060000
+linuxload_sd=set bootargs $(bootargs_sd); flr 80000 1fffff 40060000; bootm 40060000
+bootargs_sd=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+bootargs_eldk=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:of
+f nfsroot=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 rootdelay=2
+bootargs_mvl=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off
+ nfsroot=192.168.2.34:/opt/arm-versatile-1176/prebuild/rootfs mem=256M console=ttyS0,38400 ro
+otdelay=2
+bootargs=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+linuxload_win=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+linuxload=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+
+
+module_board #pri
+baudrate=38400
+bootfile="/work/tftpboot/realview"
+ethaddr=00:02:F7:00:19:17
+ipaddr=10.1.77.77
+gatewayip=10.1.77.1
+serverip=10.1.77.36
+bootdelay=2
+llc=flr 50000 ce9c 401e0000; go 401e04cc 2
+filesize=480
+freq_load=flr 69000 2c4 c0070000; go c0070000
+kernel_load=flr 50000 480 c0060000; go C0060030 40060000
+bootcmd=run linuxload
+linuxload_flw=run kernel_load; flw 80000 1fffff 40060000
+linux_load_mvl=run freq_load; run kernel_load; bootm 40060000
+bootargs=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.22
+linuxload_mvl=set bootargs $(bootargs_mvl); run freq_load; run kernel_load; bootm 40060000
+linuxload=set bootargs $(bootargs_mvl); run freq_load; run kernel_load; bootm 40060000
+linuxload_sd=set bootargs $(bootargs_sd); flr 80000 1fffff 40060000; bootm 40060000
+bootargs_sd=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+bootargs_eldk=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.2
+bootargs_mvl=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.12
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+
+
+
+
+
+
+baudrate=38400
+bootfile="/work/tftpboot/realview"
+ethaddr=00:02:F7:00:19:17
+ipaddr=10.1.77.77
+gatewayip=10.1.77.1
+serverip=10.1.77.36
+bootcmd=run linuxload
+bootdelay=2
+bootargs_rootdelay=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:us
+b0:off nfsroot=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 rootdelay=2
+bootargs_ethaddrs=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb
+0:off nfsroot=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 g_ether.dev_addr=7a
+:07:68:bc:3d:50 g_ether.host_addr=06:50:73:F4:9F:7E
+bootargs=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfs
+root=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 rootdelay=2
+linuxload=flr 69000 2a4 c0070000;go c0070000;flr 50000 458 c0060000;go 0xC0060030 40060000;bo
+otm 40060000
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+filesize=458
+llc=flr 50000 d000 401e0000; go 401E04E8
+
+
+
+
+INIT: no more processes left in this runlevel
+In:    serial
+Out:   serial
+Err:   serial
+Hit any key to stop autoboot:  0 
+module_board #pri
+baudrate=38400
+bootfile="/work/tftpboot/realview"
+ethaddr=00:02:F7:00:19:17
+ipaddr=10.1.77.77
+gatewayip=10.1.77.1
+serverip=10.1.77.36
+bootdelay=2
+llc=flr 50000 ce9c 401e0000; go 401e04cc 2
+filesize=480
+freq_load=flr 69000 2c4 c0070000; go c0070000
+kernel_load=flr 50000 480 c0060000; go C0060030 40060000
+linuxload_mvl=set bootargs $(bootargs_mvl); run freq_load; run kernel_load; bootm 40060000
+bootargs_sd=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+bootargs_eldk=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 rootdelay=2
+bootargs_mvl=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.2.34:/opt/arm-versatile-1176/prebuild/rootfs mem=256M console=ttyS0,38400 rootdelay=2
+linuxload_win=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+linuxload=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+bootargs_sdip=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off
+linuxload_sdip=set bootargs $(bootargs_sdip);run kernel_load;bootm 40060000
+bootcmd=run linuxload_sdip
+linuxload_flw=run kernel_load;flw 100000 1fffff 40060000
+bootargs=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+linuxload_sd=set bootargs $(bootargs_sd);flr 100000 1fffff 40060000;bootm 40060000
+bootargs_sd2=root=/dev/mmcblk0p2 console=ttyS0,38400 rootdelay=4 mem=256M
+linuxload_sd2=set bootargs $(bootargs_sd2);flr 100000 1fffff 40060000; bootm 40060000
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+
+Environment size: 1652/4092 bytes
+module_board #fing
+ Compiled by: Sergey Petrovsky 15 Dec 2011  15:05:07 
+ Git branch =  mc6901_master (0 lines in git diff) 
+
+ Last commit a84a1eeeba27039726a808fbeb6dded0bb75c138 
+ Author: Sergey Petrovsky <sypetrov@petrovsky.module.ru> 
+ Date:   Thu Nov 24 13:33:14 2011 +0300 
+   
+module_board #
+
+
+
+
+
+
+
+
+INIT: Switching to runlevel: 0
+INIT: Sending processes the TERM signal
+INIT: no more processes left in this runlevel                                                                    
+In:    serial                                                                                                    
+Out:   serial                                                                                                    
+Err:   serial                                                                                                    
+Hit any key to stop autoboot:  0                                                                                 
+module_board #pri 
+baudrate=38400
+bootfile="/work/tftpboot/realview"
+ethaddr=00:02:F7:00:19:17
+ipaddr=10.1.77.77
+gatewayip=10.1.77.1
+serverip=10.1.77.36
+bootdelay=2
+filesize=480
+freq_load=flr 69000 2c4 c0070000; go c0070000
+kernel_load=flr 50000 480 c0060000; go C0060030 40060000
+linuxload_mvl=set bootargs $(bootargs_mvl); run freq_load; run kernel_load; bootm 40060000
+bootargs_eldk=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.2.34:/opt/eldk_arm/arm mem=256M console=ttyS0,38400 rootdelay=2
+bootargs_mvl=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.2.34:/opt/arm-versatile-1176/prebuild/rootfs mem=256M console=ttyS0,38400 rootdelay=2
+linuxload_win=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+linuxload=set bootargs $(bootargs_sd);run kernel_load;bootm 40060000
+bootargs_sdip=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off
+linuxload_sdip=set bootargs $(bootargs_sdip);run kernel_load;bootm 40060000
+linuxload_flw=run kernel_load;flw 100000 1fffff 40060000
+bootargs=root=/dev/mmcblk0p1 console=ttyS0,38400 rootdelay=4 mem=256M
+linuxload_sd=set bootargs $(bootargs_sd);flr 100000 1fffff 40060000;bootm 40060000
+bootargs_sd2=root=/dev/mmcblk0p2 console=ttyS0,38400 rootdelay=4 mem=256M
+linuxload_sd2=set bootargs $(bootargs_sd2);flr 100000 1fffff 40060000; bootm 40060000
+bootargs_flnfs=root=nfs ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off nfsroot=192.168.2.34:/home/gkurtsman/Develop/boards/mc6901/rootfs mem=256M console=ttyS0,38400 rootdelay=2
+linux_load_flnfs=set bootargs $(bootargs_flnfs);flr 100000 1fffff 40060000;bootm 40060000
+linuxload_eldk=set bootargs $(bootargs_eldk);run freq_load;run kernel_load; bootm 40060000
+linuxload_sd5=set bootargs $(bootargs_sd5);flr 100000 1fffff 40060000;bootm 40060000
+llc=flr 80000 ffff 401e0000; go 401e04cc 2
+bootargs_sd=root=/dev/mmcblk0p5 console=ttyS0,38400 rootdelay=4 mem=128M
+linuxload_hsd5=set bootargs $(bootargs_sd5);run kernel_load;bootm 40060000
+setip=ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off
+bootargs_sd5=root=/dev/mmcblk0p5 console=ttyS0,38400 mem=128M ip=192.168.2.33:192.168.2.34:192.168.2.34:255.255.255.0:mc6901:usb0:off rootdelay=6
+bootcmd=run linuxload
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+
+Environment size: 2415/4092 bytes
+module_board #
+
+
+
+
+
+
+baudrate=38400
+bootdelay=2
+linuxload=mw 200444 0; mw 280444 0; flr 100000 1fffff 40060000; bootm 40060000
+bootargs=root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc690
+1:eth0:off console=ttyS0,38400 rootdelay=4 mem=128M
+llc=flr 80000 ffff 401e0000;go 401e046c 2
+bootcmd=run linuxload_rndis
+filesize=278
+double_arm_freq=flr 500000 278 c0070000;go c0070000
+linuxload_rndis=mw 200444 0;mw 280444 0;run double_arm_freq;run kernel_rndis_load
+kernel_rndis_load=flr 300000 1fffff 40060000;bootm 40060000
+kernel_eem_load=flr 100000 1fffff 40060000; bootm 40060000
+linuxload_eem=mw 200444 0;mw 280444 0;run double_arm_freq; run kernel_eem_load
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+
+
+
+module_board #pri
+baudrate=38400
+linuxload=mw 200444 0; mw 280444 0; flr 100000 1fffff 40060000; bootm 40060000
+llc=flr 80000 ffff 401e0000;go 401e046c 2
+filesize=278
+double_arm_freq=flr 500000 278 c0070000;go c0070000
+linuxload_rndis=mw 200444 0;mw 280444 0;run double_arm_freq;run kernel_rndis_load
+kernel_rndis_load=flr 300000 1fffff 40060000;bootm 40060000
+kernel_eem_load=flr 100000 1fffff 40060000; bootm 40060000
+linuxload_eem=mw 200444 0;mw 280444 0;run double_arm_freq; run kernel_eem_load
+kernel_remote_load=flr 50000 fff c0060000;go c0060030 40060000
+set=bootargs $(bootargs_krem)
+linuxload_krem=set bootargs $(bootargs_krem);mw 200444 0; mw 280444 0;run double_arm_freq;run kernel_remote_load
+;bootm 40060000
+bootargs=root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc6901:eth0:off console=ttyS0,38400
+ rootdelay=4 mem=128M
+linuxload_nfs=set bootargs $(bootargs_nfs);mw 280444 0;run double_arm_freq;run kernel_remote_load;bootm 40060000
+bootargs_nfs=root=/dev/nfs ip=192.168.0.4:192.168.0.1:192.168.0.1:255.255.255.255:mc6901:eth0:off console=ttyS0,
+38400 rootdelay=4 mem=256M nfsroot=/home/gkurtsman/Customers/mc6901_product_2.0_files/rootfs/
+bootdelay=2
+bootargs_krem1=root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc6901:eth0:off console=ttyS0
+,38400 rootdelay=4 mem=256M
+bootargs_krem2=root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc6901:eth0:off console=ttyS1
+,38400 rootdelay=4 mem=256M
+bootcmd=run linuxload_krem
+bootargs_krem=root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc6901:eth0:off rootdelay=4 me
+m=256M
+stdin=serial
+stdout=serial
+stderr=serial
+verify=n
+
+Environment size: 1643/4092 bytes
+
+Linux from 2.1 distro log:
+In:    serial
+Out:   serial
+Err:   serial
+Hit any key to stop autoboot:  0 
+## Starting application at 0xC0070000 ...
+crdm0=0x00000001
+crdm2=0x00000001
+divider OK
+## Application terminated, rc = 0x0
+## Booting kernel from Legacy Image at 40060000 ...
+   Image Name:   Linux-2.6.37-rc1+
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    1906124 Bytes =  1.8 MB
+   Load Address: 40008000
+   Entry Point:  40008000
+   Loading Kernel Image ... OK
+OK
+ARM internal:: Moved kernel boot params from 0x00000100 to 0x40000100 to match image header entry point 0x400
+
+Starting kernel ...
+
+Linux version 2.6.37-rc1+ (aasubbot@spica.module.ru) (gcc version 4.3.3 (MontaVista Linux Sourcery G++ 4.3-26
+CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387f
+CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Machine: Module MC6901
+Ignoring unrecognised tag 0x00000000
+NMC3 (realview_pb1176.c): mem = '128M'.
+NMC3 (realview_pb1176.c): kernel_mem = 134217728.
+Memory policy: ECC disabled, Data cache writeback
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Kernel command line: root=/dev/mmcblk0p1 ip=10.7.11.38:10.7.16.20:10.7.16.20:255.255.0.0:mc6901:eth0:off conM
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Memory: 128MB = 128MB total
+Memory: 125932k/125932k available, 5140k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+    vmalloc : 0xc8800000 - 0xf8000000   ( 760 MB)
+    lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+      .init : 0xc0008000 - 0xc0024000   ( 112 kB)
+      .text : 0xc0024000 - 0xc03af4e0   (3630 kB)
+      .data : 0xc03b0000 - 0xc03c7ea0   (  96 kB)
+NR_IRQS:64
+VIC @fefa0000: id 0x00041192, vendor 0x41
+Calibrating delay loop... 326.86 BogoMIPS (lpj=1634304)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+CPU: Testing write buffer coherency: ok
+NET: Registered protocol family 16
+NMC3 (realview_pb1176.c): Device register...
+bio: create slab <bio-0> at 0
+ssp-pl022 ssp-pl022: ARM PL022 driver, device ID: 0x00041022
+pl022: mapped registers from 0xfff8d000 to c8814000
+Switching to clocksource timer3
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+JFFS2 version 2.2. �© 2001-2006 Red Hat, Inc.
+msgmni has been set to 245
+io scheduler noop registered
+io scheduler deadline registered (default)
+Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xfff8b000 (irq = 39) is a 16550A
+console [ttyS0] enabled
+serial8250.0: ttyS1 at MMIO 0xfff8c000 (irq = 40) is a 16550A
+m25p80 spi0.0: m25p64-nonjedec (8192 Kbytes)
+Creating 2 MTD partitions on "spi_flash":
+0x000000000000-0x000000100000 : "mc6901 firmware"
+0x000000100000-0x000000800000 : "JFFS2 (work area)"
+enc28j60 spi0.7: enc28j60 Ethernet driver 1.01 loaded
+net eth0: enc28j60 driver registered
+g_ether gadget: using random self ethernet address
+g_ether gadget: using random host ethernet address
+usb0: MAC fe:25:b7:1d:9a:d8
+usb0: HOST MAC c6:07:dc:3a:e6:9d
+g_ether gadget: Ethernet Gadget, version: Memorial Day 2008
+g_ether gadget: g_ether ready
+mice: PS/2 mouse device common for all mice
+mmc_spi spi0.1: ASSUMING 3.2-3.4 V slot power
+mmc_spi spi0.1: SD/MMC host mmc0, no DMA, no WP, no poweroff
+IPv4 over IPv4 tunneling driver
+TCP bic registered
+TCP cubic registered
+TCP westwood registered
+TCP htcp registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+Registering the dns_resolver key type
+VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+g_ether gadget: full speed config #1: RNDIS
+------------[ cut here ]------------
+WARNING: at kernel/softirq.c:159 local_bh_enable+0x44/0xb4()
+Modules linked in:
+[<c002f818>] (unwind_backtrace+0x0/0xf8) from [<c002dfbc>] (dump_stack+0x10/0x14)
+[<c002dfbc>] (dump_stack+0x10/0x14) from [<c0039e74>] (warn_slowpath_common+0x4c/0x64)
+[<c0039e74>] (warn_slowpath_common+0x4c/0x64) from [<c0039ea8>] (warn_slowpath_null+0x1c/0x24)
+[<c0039ea8>] (warn_slowpath_null+0x1c/0x24) from [<c003f5d4>] (local_bh_enable+0x44/0xb4)
+[<c003f5d4>] (local_bh_enable+0x44/0xb4) from [<c0236af0>] (dev_txq_stats_fold+0x74/0xc4)
+[<c0236af0>] (dev_txq_stats_fold+0x74/0xc4) from [<c0236bb4>] (dev_get_stats+0x74/0x94)
+[<c0236bb4>] (dev_get_stats+0x74/0x94) from [<c020b3f8>] (rndis_msg_parser+0x1dc/0x970)
+[<c020b3f8>] (rndis_msg_parser+0x1dc/0x970) from [<c020bbb0>] (rndis_command_complete+0x24/0x58)
+[<c020bbb0>] (rndis_command_complete+0x24/0x58) from [<c02075f8>] (transfer_complete+0x50/0xf4)
+[<c02075f8>] (transfer_complete+0x50/0xf4) from [<c02079c0>] (ep_data_out+0x13c/0x14c)
+[<c02079c0>] (ep_data_out+0x13c/0x14c) from [<c0208004>] (bbp_rcmdl_irq+0x560/0x5b0)
+[<c0208004>] (bbp_rcmdl_irq+0x560/0x5b0) from [<c0064f1c>] (handle_IRQ_event+0x30/0xfc)
+[<c0064f1c>] (handle_IRQ_event+0x30/0xfc) from [<c00670cc>] (handle_level_irq+0xb4/0x124)
+[<c00670cc>] (handle_level_irq+0xb4/0x124) from [<c0024074>] (asm_do_IRQ+0x74/0x98)
+[<c0024074>] (asm_do_IRQ+0x74/0x98) from [<c00297d8>] (__irq_svc+0x38/0x80)
+Exception stack(0xc7929ea8 to 0xc7929ef0)
+9ea0:                   ffc02000 fef84fff 00000000 00000001 c7877cd0 0000001d
+9ec0: 0000001d c7841540 ffc02000 0000ffff 00000001 c03b4990 c0033048 c7929ef0
+9ee0: c00304b8 c02038a0 20000013 ffffffff
+[<c00297d8>] (__irq_svc+0x38/0x80) from [<c02038a0>] (dma_readwriter+0x1f8/0x2a8)
+[<c02038a0>] (dma_readwriter+0x1f8/0x2a8) from [<c0203b58>] (do_polling_transfer+0xf0/0x190)
+[<c0203b58>] (do_polling_transfer+0xf0/0x190) from [<c0203d90>] (pump_messages+0x198/0x204)
+[<c0203d90>] (pump_messages+0x198/0x204) from [<c004c5f8>] (process_one_work+0x1e0/0x328)
+[<c004c5f8>] (process_one_work+0x1e0/0x328) from [<c004cfb0>] (worker_thread+0x1e8/0x330)
+[<c004cfb0>] (worker_thread+0x1e8/0x330) from [<c0051344>] (kthread+0x80/0x88)
+[<c0051344>] (kthread+0x80/0x88) from [<c002aba4>] (kernel_thread_exit+0x0/0x8)
+---[ end trace 7e3fee5446248cea ]---
+net eth0: link down
+net eth0: normal mode
+net eth0: normal mode
+net eth0: multicast mode
+IP-Config: Complete:
+     device=eth0, addr=10.7.11.38, mask=255.255.0.0, gw=10.7.16.20,
+     host=mc6901, domain=, nis-domain=(none),
+     bootserver=10.7.16.20, rootserver=10.7.16.20, rootpath=
+Waiting 4sec before mounting root device...
+mmc0: host does not support reading read-only switch. assuming write-enable.
+mmc0: new SDHC card on SPI
+mmcblk0: mmc0:0000 00000 7.51 GiB 
+ mmcblk0: p1
+init/do_mounts.c#318: err = -22
+EXT2-fs (mmcblk0p1): warning: mounting unchecked fs, running e2fsck is recommended
+VFS: Mounted root (ext2 filesystem) on device 179:1.
+init/do_mounts.c#318: err = 0
+Freeing init memory: 112K
+INIT: version 2.86 booting
+Please wait: booting...
+mount: sysfs already mounted or /sys busy
+mount: according to mtab, sysfs is already mounted on /sys
+Starting udev udevd (249): /proc/249/oom_adj is deprecated, please use /proc/249/oom_score_adj instead.
+udevd version 124 started
+
+mmcblk0: retrying using single block read
+Root filesystem already rw, not remounting
+Configuring network interfaces... net eth0: multicast mode
+net eth0: multicast mode
+done.
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+Fri Jun  3 11:46:00 BST 2011
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+INIT: Entering runlevel: 5
+Starting OpenBSD Secure Shell server: sshd
+done.
+starting Busybox HTTP Daemon: httpd... done.
+starting Busybox inetd: inetd... done.
+Starting syslogd/klogd: done
+Starting Vixie-cron.
+Starting ARM_PC...
+Starting ARM_PC daemon...
+Done.
+
+MontaVista(R) Linux(R) 6.0
+
+MontaVista Linux 6 .dev-snapshot-20110603 arm-versa-1176-k32 console
+
+arm-versa-1176-k32 login: root
+root@arm-versa-1176-k32:~# ifconfig
+eth0      Link encap:Ethernet  HWaddr 9E:A2:8F:89:1D:4E  
+          inet addr:192.168.1.2  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+          Interrupt:57 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+usb0      Link encap:Ethernet  HWaddr FE:25:B7:1D:9A:D8  
+          inet addr:192.168.2.33  Bcast:192.168.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7 errors:0 dropped:5 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:924 (924.0 b)  TX bytes:0 (0.0 b)
+
+root@arm-versa-1176-k32:~#

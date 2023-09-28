@@ -1,0 +1,9 @@
+DSP principles.
+
+1. What's DSP?
+
+1.1. ADC/DAC
+1.2. digital averager.
+Actually, it's low-pass filter.
+1.3. high-pass filters, audio mixers, equalisers, compressors/expanders etc.
+1.4. transforming time-domain data into frequency-domain data.

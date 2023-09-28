@@ -1,0 +1,276 @@
+﻿My GCC knowledge
+
+b1. gcc.pdf
+
+b.1.1. Common things
+GNU Compiler Collection (GCC) p.15
+C++ compiler has name G++. p.15
+The part of a compiler that is specific to a particular language is called the “front end”. p.15
+The “back ends” generate machine code for various processors. p.15
+
+b.1.2. Standards
+
+b.1.2.1. C
+The original ANSI C standard (X3.159-1989) was ratified in 1989 and published in 1990. This standard was ratified as an ISO standard (ISO/IEC 9899:1990) later in 1990. Commonly known as C89, or occasionally as C90. Errors in the 1990 ISO C standard were corrected in two Technical Corrigenda published in 1994 and 1996. GCC does not support the uncorrected version.
+A new edition of the ISO C standard was published in 1999 as ISO/IEC 9899:1999, and is commonly known as C99. Errors in the 1999 ISO C standard were corrected in three Technical Corrigenda published in 2001, 2004 and 2007. GCC does not support the uncorrected version. p.17
+By default, GCC provides some extensions to the C language that on rare occasions conflict with the C standard.
+A conforming hosted implementation supports the whole standard including all the library facilities; a conforming freestanding implementation is only required to provide certain library facilities: those in <float.h>, <limits.h>, <stdarg.h>, and <stddef.h>; since AMD1, also those in <iso646.h>; and in C99, also those in <stdbool.h> and <stdint.h>. In addition, complex types, added in C99, are not required for freestanding implementations.
+An OS kernel would be a freestanding environment; a program using the facilities of an operating system would normally be in a hosted implementation. GCC does not provide the library facilities required only of hosted implementations, nor yet all the facilities required by C99 of freestanding implementations; to use the facilities of a hosted environment, you will need to find them elsewhere (for example, in the GNU C library). See Section 10.6 [Standard Libraries], page 564.
+Most of the compiler support routines used by GCC are present in ‘libgcc’, but there are a few exceptions. GCC requires the freestanding environment provide memcpy, memmove, memset and memcmp. Finally, if __builtin_trap is used, and the target does not implement the trap pattern, then GCC will emit a call to abort.
+
+b.1.2.2. C++
+GCC supports the ISO C++ standard (1998) and contains experimental support for the upcoming ISO C++ standard (200x).
+The original ISO C++ standard was published as the ISO standard (ISO/IEC 14882:1998) and amended by a Technical Corrigenda published in 2003 (ISO/IEC 14882:2003). These standards are referred to as C++98 and C++03, respectively. GCC implements the majority of C++98 (export is a notable exception) and most of the changes in C++03. To select this standard in GCC, use one of the options ‘-ansi’ or ‘-std=c++98’; to obtain all the diagnostics required by the standard, you should also specify ‘-pedantic’ (or ‘-pedantic-errors’ if you want them to be errors rather than warnings).
+The ISO C++ committee is working on a new ISO C++ standard, dubbed C++0x, that is intended to be published by 2009. C++0x contains several changes to the C++ language, some of which have been implemented in an experimental C++0x mode in GCC. The C++0x mode in GCC tracks the draft working paper for the C++0x standard; the latest working paper is available on the ISO C++ committee’s web site at http://www.open-std.org/jtc1/sc22/wg21/. For information regarding the C++0x features available in the experimental C++0x mode, see http://gcc.gnu.org/gcc-4.3/cxx0x_status.html. To select this standard in GCC, use the option ‘-std=c++0x’; to obtain all the diagnostics required by the standard, you should also specify ‘-pedantic’ (or ‘-pedantic-errors’ if you want them to be errors rather than warnings).
+By default, GCC provides some extensions to the C++ language; See Section 3.5 [C++ Dialect Options], page 31. Use of the ‘-std’ option listed above will disable these extensions. You may also select an extended version of the C++ language explicitly with ‘-std=gnu++98’ (for C++98 with GNU extensions) or ‘-std=gnu++0x’ (for C++0x with GNU extensions). The default, if no C++ language dialect options are given, is ‘-std=gnu++98’.
+
+b.1.3. GCC Command Options
+
+b.1.4. C Implementation-defined behavior
+
+b.1.5. Extensions to the C Language Family
+
+b.1.6. Extensions to the C++ Language
+
+b.1.7. Binary Compatibility
+Application binary interface (ABI) p.559
+The set of runtime conventions followed by all of the tools that deal with binary representations of a program, including compilers, assemblers, linkers, and language runtime support. Some ABIs are formal with a written specification, possibly designed by multiple interested parties. Others are simply the way things are actually done by a particular set of tools.
+ABI conformance;
+- calling conventions;
+- interoperability;
+- intercallability;
+- implementation-defined features;
+- compatibility.
+... look at document.
+
+b2. in GNU Compiler Collection (GCC) Internals.
+
+b2.1. Contributing to GCC Development
+http://gcc.gnu.org/svn.html
+http://gcc.gnu.org/contribute.html
+http://gcc.gnu.org/contributewhy.html
+http://gcc.gnu.org/projects/
+
+b2.2. portability
+GCC itself aims to be portable to any machine where int is at least a 32-bit type.
+It aims to target machines with a flat (non-segmented) byte addressed data address space (the code address space can be separate).
+Target ABIs may have 8, 16, 32 or 64-bit int type. Char can be wider than 8 bits.
+???? something non-understandable (now) about algebraic formulas and target 
+
+b.2.3. Interfacint to GCC output
+Calling conventions for different targets.
+
+b.2.4. Low-level runtime library
+libgcc functions:
+- integer arithmetic;
+- floating point emulation;
+- decimal floating point emulation;
+- fixed-point fractional emulation;
+- language-independent exception handling;
+- miscellaneous: cache control.
+
+b.2.5. Language Front Ends in GCC
+
+b.2.6. Source Tree Structure and Build System
+http://gcc.gnu.org/install/
+
+b.2.6.1. Configure Terms and History
+There are three system names that the build knows about: the machine
+you are building on (build), the machine that you are building for (host),
+and the machine that GCC will produce code for (target). When you configure
+GCC, you specify these with
+‘--build=’,
+‘--host=’, and
+‘--target=’.
+
+b.2.6.2. Top Level Source Directory
+‘boehm-gc’ for java runtime lib;
+‘contrib’ useful scripts;
+‘fastjar’ jar for java front-end;
+‘fixincludes’ fixing system headers;
+‘gcc’ The main sources of GCC itself;
+include, libxxx, zlib etc...
+
+b.2.6.3. Configuration in the ‘gcc’ Directory
+Autoconf-generated script ‘configure’.
+
+b.2.6.4. Makefile Targets
+
+b.2.6.5. Libraries
+
+b.2.6.6. Headers
+
+b.2.6.7. Documentation
+
+b.2.6.8. Anatomy of a Language Front End
+
+b.2.6.9. Anatomy of a Target Back End
+
+b.2.7. Testsuites
+on the DejaGnu tests framework base.
+
+b.2.8. Option specification files
+
+b.2.9. Passes and Files of the Compiler
+This chapter is dedicated to giving an overview of the optimization and code
+generation passes of the compiler. In the process, it describes some of the language
+front end interface.
+
+b.2.9.1. Parsing pass
+Source code parsing.
+
+b.2.9.2. Gimplification pass
+Makes tuples from intermediate representation of a function.
+
+b.2.9.3. Pass manager
+Its job is to run all of the individual passes in the correct order, and take care
+of standard bookkeeping that applies to every pass.
+
+b.2.9.4. Tree SSA passes
+Optinization.
+There is short description of each kind of optimization (a lot of them!).
+
+b.2.9.5. RTL passes
+
+b.2.10. RTL Representation
+The last part of the compiler work is done on a low-level intermediate
+representation. One of the intermediate latnuages (IL) is Register
+Transfer Language (RTL).
+
+b.2.10.1. RTL Object Types
+RTL uses five kinds of objects: expressions, integers, wide integers, strings
+and vectors.
+Expressions are the most important ones. An RTL expression (“RTX”, for short)
+is a C structure, but it is usually referred to with a pointer; a type that is given
+the typedef name rtx.
+
+b.2.10.2. RTL Classes and Formats
+gcc/gcc-4.4.1/gcc/rtl.def
+gcc/gcc-4.4.1/gcc/rtl.h
+define_insn:  gcc/config/arm/arm.md, gcc/config/m68k/m68k.md
+match_operand filling: gcc/config/arm/arm.md
+ANY64 etc definitions: gcc/config/arm/iterators.md
+
+b.2.10.3. Access to Operands
+
+b.2.10.4. Access to Special Operands
+
+b.2.10.5. Flags in an RTL Expression
+
+b.2.10.6. Machine Modes
+
+b.2.10.7. Constant Expression Types
+
+b.2.10.8. Registers and Memory
+
+b.2.10.9. RTL Expressions for Arithmetic
+
+etc.
+
+b2.11. Generic
+IL - intermediate language. The tree language GENERIC is one of them.
+
+b2.12. GIMPLE
+The compiler pass which converts GENERIC into GIMPLE is referred to as the
+‘gimplifier’. The gimplifier works recursively, generating GIMPLE tuples out
+of the original GENERIC expressions.
+
+b2.13. Analysis and Optimization of GIMPLE tuples
+Optimization algorithms are enumerated with short notes.
+
+b2.14. Analysis and Representation of Loops
+Optimization.
+
+b2.15. Control Flow Graph
+Optimization.
+
+b2.16. Machine Descriptions
+b2.16.1. dumps:
+	-fdump-rtl-PASS
+	-dA
+	-fdump-final-insns=<file_name>
+
+b2.17. Byte addressable memory consequences:
+b2.17.1. align requires bytes number;
+b2.17.2. inline assembler permits %b etc.
+b2.17.3. bit fields and endiannes has involve a problem
+
+b3. gcc source files info.
+
+b3.1. stmt.c contains:
+b3.1.1. case (switch?) operator;
+b3.1.2. asm operator;
+b3.1.3. goto operators;
+b3.1.4. return;
+b3.1.5. constraints parsing;
+b3.1.6. registers saving;
+b3.1.7. automatic variable declaration;
+b3.1.8. stack save/restore;
+
+b3.2. gcc.4.7.obj/gcc/insn-recog.c investigation.
+Aim: how compiler determines pairs: insn....insn_pattern?
+
+enumeration etc. for insn recognition: gcc/testsuite/gcc.target/ia64/pr49303.c
+
+recog(x0...)->recog45(x0...)->XEXP(x0,0)->(RTL_CHECK2(x0,0,'e','u',).rt_rtx)->x0.u.fld[0]
+
+b3.3. "movm", where m is machine mode. Ergo: movsi
+emit_insn (gen_movsi (reg, new_rtx));  - in i386.c
+
+b3.4. gcc/config.gcc
+comment: # Set default cpu_type, tm_file, tm_p_file and xm_file so it can be
+# updated in each machine entry.  Also set default extra_headers for some
+# machines.
+
+b3.5. powerpc: softlinks have been created:
+powerpc-eabi-as -> powerpc-e500v2-as
+etc., where "powerpc-eabi" is targen name in "configure" invoking.
+
+b3.6. debugging with gdb.
+
+cc1 executing: libiberty/pex-common.c:pex_run_in_environment(), line# 342.
+               in assembly: b *0x46a323
+
+b pex-common.c:342
+b pex-unix.c:620
+set follow-fork-mode child
+set follow-exec-mode new
+catch exec
+catch vfork
+
+tb execve
+sym gcc/cc1
+tb main
+
+b3.7. SPECS:
+-fdump-final-insns 
+-fopenmp | ftree-parallelize-loops=*
+-pthread
+-fgnu-tm: -pthread
+-E|-M|-MM:%(trad_capable_cpp) %(cpp_options) %(cpp_debug_options)
+-no-integrated-cpp
+-!Q:-quiet} %{nostdinc*} %{C} %{CC} %{v} %{I*&F*} %{P} %I %{MD:-MD %{!o:%b.d}%{o*:%.d%*}} %{MMD:-MMD %{!o:%b.d}%{o*:%.d%*}} %{M} %{MM} %{MF*} %{MG} %{MP} %{MQ*} %{MT*} %{!E:%{!M:%{!MM:%{!MT:%{!MQ:%{M"...
+-quiet
+-iprefix
+/home/gkurtsman/Develop/gcc_src/gcc_neuro.obj/gcc/../lib/gcc/neuro/4.8.0/
+-isystem
+/home/gkurtsman/Develop/gcc_src/gcc_neuro.obj/./gcc/include
+-isystem
+/home/gkurtsman/Develop/gcc_src/gcc_neuro.obj/./gcc/include-fixed
+%{!M:%{!MM:%{!MT:%{!MQ:%{MD|MMD:%{o*:-MQ %*}}}}}}
+!MM:%{!MT:%{!MQ:%{MD|MMD:%{o*:-MQ %*}}}}}
+%{!MT:%{!MQ:%{MD|MMD:%{o*:-MQ %*}}}}
+%{!MQ:%{MD|MMD:%{o*:-MQ %*}}}
+%{MD|MMD:%{o*:-MQ %*}
+fplugin*:%:find-plugindir()
+-isystem
+/opt/gcc_neuro/neuro/include
+-isystem
+/opt/gcc_neuro/neuro/sys-include
+fomit-frame-pointer:%e-pg and -fomit-frame-pointer are incompatible}} %{!iplugindir*:%{fplugin*:%:find-plugindir()}} %1 %{!Q:-quiet} %{!dumpbase:-dumpbase %B} %{d*} %{m*} %{aux-info*} %{fcompar"...
+%{fplugin*:%:find-plugindir()
+-quiet
+
+b3.8. Problem:
+
+TARGET_LEGITIMATE_ADDRESS_P

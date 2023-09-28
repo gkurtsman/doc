@@ -1,0 +1,46 @@
+I. ROM bootloader code investigation
+
+1. Common registers using:
+R0 - HEAP pointer
+
+II. ROM bootloader imitator in u-boot environment remarks.
+
+1. ROM bootloader actions sequence:
+1.1. HEAP clearance;
+1.2. from which device do load?
+
+1.3. bootloader, ttyS1:
+
+1.4. handshake:
+1.4.1. init_uart (11);
+1.4.2. sets RTS, receives from host 0x0d and tests CTS; then look at handshake.s
+1.4.3. sends 0x0a, sets RTS;
+1.4.5. CTS/RTS are being removed, pauses instead;
+1.4.6. Host starts first, sends 0x0d permanently with 3ms pauses.
+
+1.5. get_command:
+1.5.1. characters are skipped till 0x0f 0x0f
+1.5.2. command has a format described in /home/gkurtsman/Documents/module/BBP/Microchip_an851.pdf, p. 3.;
+1.5.3. checksum is initiated by 0xA5 value. Then EOR with information symbol
+(excluding 0x0f, 0x05 and 0x04). Result of checksum computing on receiving
+side is always equal to 0.
+1.5.4. CSUM_CHECK:
+1.5.4.1. crc32.
+1.5.4.2. length in 6th word has to be written by host loader.
+
+1.5.5. set_parameters;
+1.5.6. restart;
+
+1.6. finish or get_data;
+
+1.7. get_data:
+1.7.1. 1st byte - command code; next - data etc.
+
+1.8. send_message:
+1.8.1. control occasional special symbols in data body.
+
+1.9. get command;
+
+1.10. finish:
+1.10.1. checksum
+1.10.2. start loaded program.

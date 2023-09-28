@@ -1,0 +1,57 @@
+﻿Микросет:
+I. Боровиченко:
++7 906 789 4779
+
+II. servers:
+1. server Linux
+ssh extsql@192.168.1.238
+
+passwd as usual
+
+2. server Windows
+192.168.1.222
+
+III. Librealsense build:
+
+cmake ../ -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_PYTHON_BINDINGS=bool:true -DBUILD_RS400_EXTRAS=true
+
+IV. Computer vision glossary:
+
+1) NARF: Normal Aligned Radial Feature
+
+V. PCL useful functions:
+
+1) http://pointclouds.org/documentation/tutorials/normal_estimation.php#normal-estimation
+	Normals estimation.
+	pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal>::compute()
+2) http://pointclouds.org/documentation/tutorials/how_features_work.php#how-3d-features-work
+	3D Features
+3) http://pointclouds.org/documentation/tutorials/narf_keypoint_extraction.php#narf-keypoint-extraction
+	NARF Keypoint
+4) http://robotica.unileon.es/index.php/PCL/OpenNI_tutorial_2:_Cloud_processing_(basic)
+	- PCD files,
+	- Matrix transformation,
+	- Using indices,
+	- Computing the centroid
+	- Normal estimation
+	- Decomposition
+		- k-d tree
+		- Octree
+	- Compressing/Decompressing
+	- Detecting changes
+	- Filtering
+		- Passthrough filter
+		- Conditional removal
+		- Outlier removal
+		- Resampling
+			- Downsampling
+			- Upsampling
+			- voxel grid
+			- uniform sampling
+		- Reconstruction	
+	
+5) http://robotica.unileon.es/index.php/PCL/OpenNI_tutorial_3:_Cloud_processing_(advanced)
+	- Model fitting (RANSAC)
+	- Projecting points
+
+6)  

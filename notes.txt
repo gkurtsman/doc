@@ -1065,6 +1065,7 @@ ctorrent
 
 14.
 $ find Music/ -name *.mp3 -exec file {} \;
+$ find . -name *.so -exec nm -o {} \;
 
 X. python
 

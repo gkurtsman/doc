@@ -711,7 +711,7 @@ gdb command: gdb <executable> <core-filei>
 
 2.3)	set logging on
 	set logging file FILE
-	etc. look 'info gcb->', search log.
+	etc. look 'info gcb->', search 'log' or 'logging output'.
 2.4) something like tracing:
 	watch $pc
 2.5) processes/threads debugging:
@@ -1063,9 +1063,12 @@ torrent cli utility:
 
 ctorrent
 
-14.
+14. find exec using:
 $ find Music/ -name *.mp3 -exec file {} \;
 $ find . -name *.so -exec nm -o {} \;
+
+15. gcc #include tree print:
+gcc -H
 
 X. python
 

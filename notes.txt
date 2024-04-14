@@ -628,6 +628,10 @@ repo_name - в нижнем регистре. Наши совпадают с б�
 8) KchmViewer:
 	chm files.
 
+9) bitbucket
+after logging go to profile and choose workspace 'Gennady Kurtsman'
+all repositories will be seen on desktop.
+
 VI. Module archive:
 1) ssh dragon
 2) then from Dragon:
@@ -701,6 +705,7 @@ cat /etc/issue
 (gdb) x/<count><b | x | d | ...><b | h | w | g | 8 bytes>
 help x  - explains perfectly
 2.3) coredump, ubuntu 20.04
+ulimit -c unlimited
 file location: /var/lib/apport/coredump/<filename>
 gdb command: gdb <executable> <core-filei>
 	or
@@ -730,6 +735,13 @@ gdb command: gdb <executable> <core-filei>
 
 2.7) coredump view
 coredupctl gdb
+
+2.8) gdb commands scripts:
+source <file>
+
+2.9) gdb breakpoint pending setting:
+set breakpoint pending on
+show breakpoint pending
 
 3) services manage:
 systemctl
@@ -1067,8 +1079,17 @@ ctorrent
 $ find Music/ -name *.mp3 -exec file {} \;
 $ find . -name *.so -exec nm -o {} \;
 
-15. gcc #include tree print:
+15. find printf
+https://www.codedodle.com/find-printf.html
+
+16. gcc #include headers tree print:
 gcc -H
+
+to define variable for Makefile
+make -e <var> = -H
+
+17. make
+Makefile content variables $@, $^ etc. term is 'Automatic Variables'
 
 X. python
 

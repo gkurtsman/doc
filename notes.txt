@@ -974,6 +974,9 @@ rsync utility.
 24). remove space in file names
 
 for f in *\ *; do mv "$f" "${f// /_}"; done
+or
+declare -i i=1 ; for n1 in `ls *.mp3` ; do cp $n1 russo_`printf "%02d" $i`_$n1 ; i=$i+1 ; done
+rm ??.mp3
 
 25). pdf files merge(combine) and separate:
 sudo dnf install poppler-utils
@@ -1090,6 +1093,10 @@ make -e <var> = -H
 
 17. make
 Makefile content variables $@, $^ etc. term is 'Automatic Variables'
+
+18. Image metadata:
+	DNF package ImageMagick
+	$ identify -verbose ~/tmp/photo_2023-11-13_17-05-34.jpg
 
 X. python
 

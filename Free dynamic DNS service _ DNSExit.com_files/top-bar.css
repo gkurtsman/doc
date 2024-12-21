@@ -1,0 +1,65 @@
+<style>
+img.delogo {
+  width: 116px;
+  height: auto;
+  box-sizing: border-box;
+}
+.item1 { grid-area: dlogo; margin: auto;}
+.item2 { grid-area: dmenu1; margin: auto;}
+.item3 { grid-area: dmenu2; margin: auto;}
+.item4 { grid-area: dchat; margin: auto;}
+
+.topctn {
+  display: grid;
+  grid-template-areas:
+    'dlogo dmenu1 dmenu1 dmenu2 dchat';
+  grid-gap: 3px;
+  height: 54;
+  pading: 10px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 767px) {
+	.topctn {
+	    grid-template-areas:
+	    	'dlogo dmenu2 dchat'
+    		'dmenu1 dmenu1 dmenu1';
+    	margin-bottom: 20px;
+	}
+	img.delogo {width: 100px;}
+}
+@media all screen and (max-width: 480px) {
+  	img.delogo {width: 80px;}
+}
+a.color1 {
+  color: #005392;
+  text-decoration: none;
+}
+a.color2 {
+  color: #003366;
+}
+
+
+.topBar {
+    /*background-image: url("/images/bg/bg2.jpg");
+    background-color: #ffffff;*/
+    border: none;
+    color: #000000;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+        border-radius: 0px;
+}
+.topBar a:link{  text-decoration: none; color: #005392; }
+.topBar:hover { background: #91c0eb; border-radius: 6px; }
+.topBarLogin { background-image: url("/images/bg/bg6.jpg"); border: line;  border-radius: 6px }
+
+
+</style>

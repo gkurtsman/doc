@@ -628,6 +628,10 @@ repo_name - в нижнем регистре. Наши совпадают с б�
 8) KchmViewer:
 	chm files.
 
+9) bitbucket
+after logging go to profile and choose workspace 'Gennady Kurtsman'
+all repositories will be seen on desktop.
+
 VI. Module archive:
 1) ssh dragon
 2) then from Dragon:
@@ -701,6 +705,7 @@ cat /etc/issue
 (gdb) x/<count><b | x | d | ...><b | h | w | g | 8 bytes>
 help x  - explains perfectly
 2.3) coredump, ubuntu 20.04
+ulimit -c unlimited
 file location: /var/lib/apport/coredump/<filename>
 gdb command: gdb <executable> <core-filei>
 	or
@@ -711,7 +716,7 @@ gdb command: gdb <executable> <core-filei>
 
 2.3)	set logging on
 	set logging file FILE
-	etc. look 'info gcb->', search log.
+	etc. look 'info gcb->', search 'log' or 'logging output'.
 2.4) something like tracing:
 	watch $pc
 2.5) processes/threads debugging:
@@ -730,6 +735,13 @@ gdb command: gdb <executable> <core-filei>
 
 2.7) coredump view
 coredupctl gdb
+
+2.8) gdb commands scripts:
+source <file>
+
+2.9) gdb breakpoint pending setting:
+set breakpoint pending on
+show breakpoint pending
 
 3) services manage:
 systemctl
@@ -962,6 +974,9 @@ rsync utility.
 24). remove space in file names
 
 for f in *\ *; do mv "$f" "${f// /_}"; done
+or
+declare -i i=1 ; for n1 in `ls *.mp3` ; do cp $n1 russo_`printf "%02d" $i`_$n1 ; i=$i+1 ; done
+rm ??.mp3
 
 25). pdf files merge(combine) and separate:
 sudo dnf install poppler-utils
@@ -1063,8 +1078,25 @@ torrent cli utility:
 
 ctorrent
 
-14.
+14. find exec using:
 $ find Music/ -name *.mp3 -exec file {} \;
+$ find . -name *.so -exec nm -o {} \;
+
+15. find printf
+https://www.codedodle.com/find-printf.html
+
+16. gcc #include headers tree print:
+gcc -H
+
+to define variable for Makefile
+make -e <var> = -H
+
+17. make
+Makefile content variables $@, $^ etc. term is 'Automatic Variables'
+
+18. Image metadata:
+	DNF package ImageMagick
+	$ identify -verbose ~/tmp/photo_2023-11-13_17-05-34.jpg
 
 X. python
 

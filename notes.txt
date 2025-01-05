@@ -1097,6 +1097,10 @@ Makefile content variables $@, $^ etc. term is 'Automatic Variables'
 18. Image metadata:
 	DNF package ImageMagick
 	$ identify -verbose ~/tmp/photo_2023-11-13_17-05-34.jpg
+19. VPN
+1. protocols
+	vless
+	shadowsocks
 
 X. python
 

@@ -632,6 +632,10 @@ repo_name - в нижнем регистре. Наши совпадают с б�
 after logging go to profile and choose workspace 'Gennady Kurtsman'
 all repositories will be seen on desktop.
 
+10) QR code, BAR code reading at linux.
+install zbar on Fedora or zbar-tools on Ubuntu.
+command: zbarimg <png file>.
+
 VI. Module archive:
 1) ssh dragon
 2) then from Dragon:
@@ -675,22 +679,13 @@ of VC after debug stops.
 4) Windows 7 activization:
 look at 'google drive' or module's 'smb://hedin/Disks/w7_sp1/soft/Windows-Loader-v2.2.zip'
 
-VIII. Life
-1) Water filter: key in room #268 (written on the barrel lid);
-                 go up on far stair till top.
-2) Otguly:
-	vacation (formal) 18.07.2016-31.07.2016
-		+ 10 otgulov
-		- 1 debt
-		- 2 otgula 19,20 .07.2016.
-		- 1 otgul 19.01.2016
-	working at Satruday 10.12.2016:
-		+1 otgul.
-		-1 otgul 07.02.2017
-		-1 otgul 17.02.2017
-
-3) bicycle comp wheel size:
-1860
+VIII. C++ (c++)
+1) type of variable info:
+   const std::type_info& type_ng_node = typeid(ng_node);
+   dbg("ng_node type is %s", type_ng_node.name());
+2) base class object pointer to derived class pointer conversion:
+	std::shared_ptr<Base> base (new Derived());
+	std::shared_ptr<Derived> derived = std::dynamic_pointer_cast<Derived> (base);
 
 IX. Linux
 1) Howto determine current distro:

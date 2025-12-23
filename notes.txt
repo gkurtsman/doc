@@ -1097,6 +1097,8 @@ Makefile content variables $@, $^ etc. term is 'Automatic Variables'
 	vless
 	shadowsocks
 
+20. hexdump, xxd, od - file display in different bases.
+
 X. python
 
 workon

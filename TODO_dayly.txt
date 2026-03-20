@@ -1,9 +1,10 @@
+﻿- NN, objects recognition
+- Lyuba lessons
+	every day to resolve one task from 13 to 19 types.
 - Починка компа
-- VPN for Linux
-- NN, objects recognition
 - Freedom transfer to Cifra
-- Discont transfer to Freedom
-- Freedom cards restore
-- Bitbucket passwords for every repository (?)
+	how can I transfer without cards?
+- Discont transfer to Freedom:
+	investigate, which countries satisfy to Discount
+	how can I transfer without cards?
 - repair Samsung Watch
-- Market Yandex items

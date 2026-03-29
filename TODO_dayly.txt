@@ -1,8 +1,10 @@
 ﻿- Discont transfer to Freedom:
 	investigate, which countries satisfy to Discount
 	how can I transfer without cards?
+	file: ./discount_internet.txt
 - Lyuba lessons
 	every day to resolve one task from 13 to 19 types.
+- backup to USB disk
 - NN, objects recognition
 - Починка компа
 - Freedom transfer to Cifra

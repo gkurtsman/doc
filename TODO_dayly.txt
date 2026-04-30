@@ -4,12 +4,11 @@
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
 - hebrew learning
-- Freedom transfer to Cifra
-- what with BitBucket?
 - Lyuba lessons
 	every day to resolve one task from 13 to 19 types.
-- Freedom banker card activate.
 - Discont transfer to Freedom:
+	investigate banker facilities of Discont. To make file with description
+		of the facilities.
 	investigate, which countries satisfy to Discount
 	how can I transfer without cards?
 	file: ./discount_internet.txt

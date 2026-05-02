@@ -7,7 +7,8 @@
 - Lyuba lessons
 	every day to resolve one task from 13 to 19 types.
 - Discont transfer to Freedom:
-	investigate banker facilities of Discont. To make file with description
+	investigate banker facilities of Discont. File
+		~/Documents/doc/DB_facilities.txt with description
 		of the facilities.
 	investigate, which countries satisfy to Discount
 	how can I transfer without cards?

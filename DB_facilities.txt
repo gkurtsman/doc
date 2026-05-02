@@ -1,5 +1,15 @@
-Diccount bank banking facilities.
+Diccount Bank banking facilities.
 
 Useful facilities:
 - Transfers between your Discount accounts and transfers to 
 	a third party at the bank and at other banks.
+- Enroll in Discount text messaging services
+- Enroll in Discount Mail
+
+Enrollment in Telebank Personal Service
+- Visit any Discount branch, sign an enrollment form, receive
+	a Bancode (secret code),
+
+TeleBank IVR system
+- Interaktive Voice Response
+

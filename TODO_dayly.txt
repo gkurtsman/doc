@@ -6,7 +6,13 @@
 - hebrew learning
 - Lyuba lessons
 	every day to resolve one task from 13 to 19 types.
+- to buy cross boots till 18.05.2026
+- jewish history files to cloud
 - Discont transfer to Freedom:
+	to write program(plan) of Israel visit
+	to write questions concerning the visit
+	to get answers to the questions.
+	to discuss with Mila(or with that Inna?) bank visit procedure.
 	investigate banker facilities of Discont. File
 		~/Documents/doc/DB_facilities.txt with description
 		of the facilities.
@@ -17,4 +23,3 @@
 - NN, objects recognition
 - Починка компа
 - repair Samsung Watch
-- jewish history for Lyuba

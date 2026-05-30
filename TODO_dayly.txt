@@ -3,16 +3,20 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
+- зубной врач
 - hebrew learning
+- NN, objects recognition
+	to investigate AI services for Objects definition
 - Lyuba lessons
 	every day to resolve one task from 13 to 19 types.
-- to buy cross boots till 18.05.2026
 - jewish history files to cloud
 - Discont transfer to Freedom:
-	to write program(plan) of Israel visit
+	to write program(plan) of Israel visit, arrange trip to
+		Israel and Discont
+		note: mundial: June 11 till July 19.
 	to write questions concerning the visit
 	to get answers to the questions.
-	to discuss with Mila(or with that Inna?) bank visit procedure.
+	to discuss with Mila (or with that Inna?) bank visit procedure.
 	investigate banker facilities of Discont. File
 		~/Documents/doc/DB_facilities.txt with description
 		of the facilities.
@@ -20,6 +24,5 @@
 	how can I transfer without cards?
 	file: ./discount_internet.txt
 - backup to USB disk
-- NN, objects recognition
 - Починка компа
 - repair Samsung Watch

@@ -1,0 +1,33 @@
+MY AIMS
+1. I'm located not in Israel and have to fulfill transactions from
+	my account in Discount bank to my account in Freedom bank in Kazakhstan.
+
+	My bank Discount bank card has expired at November 2025.
+
+	in Freedom Bank (Kazakhstan). I see the virtual card image on the bank site.
+	Can I use it to send money from my discount bank accounnt to my
+	account in a Kazachstan bank?
+	May I use date of the card expiration
+	from this virtual card and card number and card holder name from
+	expired plastic card?
+2. The Kazakhstan bank account can receive transactions using my account's
+	requisits there. How can I arrange such transaction remotely from
+	Discount bank?
+3. 
+
+DISCOUNT SITE USEFUL INFORMATION
+
+1. Discount@Internet
+1.1. Information and transaction services
+	- Transfers: make transfers to accounts at the bank or elsewhere
+	- Credit cards: Activate/confirm your credit cards
+	- Foreign currency: foreign currency conversion between client accounts
+
+1.2. Credit Card Procedures in the Direct Channels
+
+1.3. files with DB knoledge:
+	discount_branch_data.jpg -	Inna's phone and DB visit code
+	discont_mila.jpg -			Mila,Boryq contacts
+	account_profile.jpg -		my DB profile
+	account_profile.txt -		my DB enroll
+	

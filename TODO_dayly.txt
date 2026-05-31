@@ -3,6 +3,14 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
+- to sort money
+- to find law 28.2 КОАП РФ and investigate::
+	благоразумно ли не явиться с точки зрения пересеченив границы?
+	величин штрафа по закону;
+	как себя вести при составлении протокола?
+	может, надо отвалить срочно?
+	напечатать уведомление и не носить смартфон в налоговую.
+	переписать Контакты на бумагу.
 - зубной врач
 - hebrew learning
 - NN, objects recognition

@@ -3,10 +3,18 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
+- backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
+- to Israel visit:
+	avia tickets;
+	to verify my fine status at nalogi.ru
+	to write and send embassy request (a kind of visa);
+	hotel reservations;
+	medical insurance. How to?
+	to call to bank call-cetner;
 - hebrew learning
-- to sort money
-- to investigate plane to Israel and hotel.
-- nalogi.ru - look at my requrement
+- money's date of issue is fulfilled, to verify sum and to group them
+ 	in conformance with dates.
+- nalogi.ru 30.06.2026 
 - dpkg and apt don't work
 - переписать Контакты на бумагу.
 - импортировать календарц самсунга на календарь гугла

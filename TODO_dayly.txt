@@ -6,17 +6,15 @@
 - backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
 - to Israel visit:
 	avia tickets;
-	to verify my fine status at nalogi.ru
 	to write and send embassy request (a kind of visa);
 	hotel reservations;
 	medical insurance. How to?
 	to call to bank call-cetner;
+	to take contacts paper;
 - hebrew learning
 - money's date of issue is fulfilled, to verify sum and to group them
  	in conformance with dates.
-- nalogi.ru 30.06.2026 
 - dpkg and apt don't work
-- переписать Контакты на бумагу.
 - импортировать календарц самсунга на календарь гугла
 - NN, objects recognition
 	to investigate AI services for Objects definition:
@@ -35,6 +33,6 @@
 	investigate, which countries satisfy to Discount
 	how can I transfer without cards?
 	file: ./discount_internet.txt
-- backup to USB disk
 - Починка компа
+- to install vless on ubuntu
 - repair Samsung Watch

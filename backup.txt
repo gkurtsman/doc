@@ -3,15 +3,19 @@ disk ULTRA
 1-.backup			2018		27G 			0		0			0
 2-.backup_laptop		2023		22G				9.6G	7.4G		18G
 3-.backup_laptop_20190103 		48G				9.6G	7.1G		9.7G
-4.backup_laptop_20211013		216G			363M	558M		59G
+4.backup_laptop_20211013**		216G			363M	558M		59G
 
 disk TOSHIBA
 5. backup_laptop_2025			3.5M			0		0			0
 6. backup_laptop_20260405		crash*			
 7. backup_laptop_20260710		59G				9.4G	7.4G		18G
+
+comp /home/gena
+
 8. ~/Documents,~/				57G				168M	2.3M		5.7G
+9. ~/Backups/DriverHQ			41M
 
 * there are not important files in Documents, in Develop dir: dnn/ librealsense
-
+** to backup Backups directory
 NOTE:
 after copying each point to compare length of written and read one.

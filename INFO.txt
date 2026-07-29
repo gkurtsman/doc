@@ -1,5 +1,7 @@
 API token:
 
+for BitBucket
+
 ATATT3xFfGF0Ri3_p_4O07nNIQKNRy34TTtvuVFVWtexOJmmgiz8PEqf3zoii_J129TWl2y4YVqN7d5kJr38MM4Q_VBsoJUkTkhcsvyoh3ojBltnwu2sV6OFTyR-5CzIrfPEp4xqYD7cEpr3UcwGo6wrG0W671le66juSr1yp0InWg0whXLodLk=3EF9ACC1
 
 App pass (will become inactive on June 9, 2026.):
@@ -18,3 +20,5 @@ To authenticate with Bitbucket Cloud using an API token:
 See the API token documentation (https://support.atlassian.com/bitbucket-cloud/docs/api-tokens/)
 for more details.
 
+for GitHub
+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

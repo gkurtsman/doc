@@ -1,24 +1,2 @@
-API token:
-
-for BitBucket
-
-ATATT3xFfGF0Ri3_p_4O07nNIQKNRy34TTtvuVFVWtexOJmmgiz8PEqf3zoii_J129TWl2y4YVqN7d5kJr38MM4Q_VBsoJUkTkhcsvyoh3ojBltnwu2sV6OFTyR-5CzIrfPEp4xqYD7cEpr3UcwGo6wrG0W671le66juSr1yp0InWg0whXLodLk=3EF9ACC1
-
-App pass (will become inactive on June 9, 2026.):
-
-b557C5VCZXTTVAAV65TL
-
-Copy API token
-Copy your API token and save it somewhere safe. We recommend you save it in a password manager. You can't recover the API token after you're done with this step.
-API token
-Save your API token before you complete this step.
-To authenticate with Bitbucket Cloud using an API token:
-
-    You will need the API token and your Bitbucket email address for Bitbucket APIs.
-    You will need the API token and your Bitbucket user name for Git commands.
-
-See the API token documentation (https://support.atlassian.com/bitbucket-cloud/docs/api-tokens/)
-for more details.
-
 for GitHub
 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

@@ -4,6 +4,10 @@
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
 - bitbucket: using browser plugin? or move soft to github
+	1. to make and apply patches from doc.current to doc.backup.
+	2. to commit and push doc.backup
+	3. to push and correct "secrets".
+	4. to push
 - backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
 - to Israel visit:
 	avia tickets;

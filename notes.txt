@@ -939,24 +939,7 @@ sane-find-scanner
 21. man search:
 apropos <text>
 
-X. Temporary notes
-
-1) mc6901 parts.
-
-2.1. SD-CARDS:
-SYP - 1 (8GB) + 1 (Kingstone 8GB);
-GMK - 1 (2GB);
-AAS - 2 (8GB);
-DS - 1 (8GB);
-Sergey Landyshev - 1(8Gg);
-
-3) mc6901 - 4 pieces;
-
-4) mc6905:
-
-GK - 1 (#5)
-SYP - 1
-DS - 1
-AAS - 1
-Sergey Landyshev - 1 (#4)
-
+X. Github repo
+git remote add origin https://github.com/gkurtsman/devices_detection.git
+git branch -M main
+git push -u origin main

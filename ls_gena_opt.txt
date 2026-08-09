@@ -1,0 +1,25 @@
+total 14G
+NOte: https://github.com/openvinotoolkit/open_model_zoo.git
+drwxrwxr-x  9 gena gena 4.0K Jul  5  2022 open_model_zoo
+
+NOTE: https://github.com/openvinotoolkit/openvino.git
+NOTE: log top commit
+Date:   Wed Jul 20 12:53:45 2022 +0200
+lrwxrwxrwx  1 root root   24 Jul 19  2022 openvino_2021 -> /opt/intel/openvino.git/
+drwxrwxr-x  5 root sudo 4.0K Jul  9  2022 openvino_2021.4.582
+NOTE:
+Date:   Wed Jul 20 14:50:07 2022 +0400
+drwxr-xr-x  3 root root 4.0K Jul 17  2022 openvino_2021.4.752
+NOTE:
+Date:   Wed Jul 20 12:53:45 2022 +0200
+drwxrwxr-x 19 gena gena 4.0K Nov 25  2022 openvino_2021.git
+Date:   Sat Jan 18 13:49:08 2025 +0400
+drwxrwxr-x 13 gena gena 4.0K Jan 20  2025 openvino_2025.0.git
+NOTE: have to be saved
+-rw-rw-r--  1 gena gena 3.6G Jun  5  2023 openvino_env.zip
+NOTE: log top commit
+Date:   Wed Jul 20 12:53:45 2022 +0200
+drwxrwxr-x 17 gena gena 4.0K Aug  4  2025 openvino.git
+NOTE:
+https://github.com/openvinotoolkit/training_extensions.git
+drwxrwxr-x 10 gena gena 4.0K Apr 20  2022 training_extensions

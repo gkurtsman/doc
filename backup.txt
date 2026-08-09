@@ -16,7 +16,7 @@ comp /home/gena
 RESULT:
 9. backup_laptop_20260710		was:59G	result:228G)	9.4G	7.4G		18G
 
-10. to restore rdsulting backup to comp
+10. to restore resulting backup to comp
 
 * there are not important files in Documents, in Develop dir: dnn/ librealsense
 ** to backup Backups directory

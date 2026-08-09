@@ -3,19 +3,19 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
-- bitbucket: move soft to github
-	$XMLPTH
-	for Github repos: to divide files with
-		length more than 50G but less than 100G
-	to write PAT for github into INFO.txt
 - backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
+	to compare summary lengths and visually laptop files and backup files, 
+- reinstall Ubuntu; which version?
 - to Israel visit:
 	avia tickets;
 	to write and send embassy request (a kind of visa);
-	hotel reservations;
+	to check freedom bank cards valitity
+	hotel reservations; 
 	medical insurance. How to?
 	to call to bank call-cetner;
 	to take contacts paper;
+	to clear mobile phone data? or to take other one?
+	to clear question about old dollars/euro exchange.
 - hebrew learning
 - money's date of issue is fulfilled, to verify sum and to group them
  	in conformance with dates.

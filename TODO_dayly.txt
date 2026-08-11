@@ -5,6 +5,8 @@
 	to monitor disk free space
 - backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
 	to compare summary lengths and visually laptop files and backup files, 
+	to continue /opt files list (Documrnts/doc/ls_gena_opt.txt 
+		for next Ubuntu installation.
 - reinstall Ubuntu; which version?
 - to Israel visit:
 	avia tickets;

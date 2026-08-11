@@ -1,3 +1,4 @@
+/opt/Intel
 total 14G
 NOte: https://github.com/openvinotoolkit/open_model_zoo.git
 drwxrwxr-x  9 gena gena 4.0K Jul  5  2022 open_model_zoo
@@ -23,3 +24,11 @@ drwxrwxr-x 17 gena gena 4.0K Aug  4  2025 openvino.git
 NOTE:
 https://github.com/openvinotoolkit/training_extensions.git
 drwxrwxr-x 10 gena gena 4.0K Apr 20  2022 training_extensions
+
+
+/opt/utils/pugixml
+NOTE:
+origin	https://github.com/zeux/pugixml (fetch)
+NOTE:
+Date:   Fri Oct 28 16:53:25 2022 -0700
+drwxrwxr-x 9 gena gena 4096 Oct  2  2023 ../pugixml/

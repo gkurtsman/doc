@@ -3,6 +3,7 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
+	to scan "TOP 100 books" at litres https://www.litres.ru/collections/top-100-knig-po-versii-bbc/?m-message-key-id=-2593827057716690940&m-message-click-id=9c48a488-b9c0-4d09-9b83-d97018822d0b&slug=top-100-knig-po-versii-bbc&utm_source=Mindbox&utm_medium=email_nezavisimie&utm_campaign=11-08-2026_Standart_NZ+(CG)
 - backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
 	to compare summary lengths and visually laptop files and backup files, 
 	to continue /opt files list (Documrnts/doc/ls_gena_opt.txt 

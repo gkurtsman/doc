@@ -3,12 +3,19 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
-	to scan "TOP 100 books" at litres https://www.litres.ru/collections/top-100-knig-po-versii-bbc/?m-message-key-id=-2593827057716690940&m-message-click-id=9c48a488-b9c0-4d09-9b83-d97018822d0b&slug=top-100-knig-po-versii-bbc&utm_source=Mindbox&utm_medium=email_nezavisimie&utm_campaign=11-08-2026_Standart_NZ+(CG)
-- backups disk: to order, backup_laptop is ordered. next is backup_laptop_20....
-	to compare summary lengths and visually laptop files and backup files, 
-	to continue /opt files list (Documrnts/doc/ls_gena_opt.txt 
+
+- to byu gifts for Nina and Sonya
+
+- to complete Ubuntu reinstalling
+	- to clone all github repos
+	- to make virtual displays
+	- to copy books dir from usb disk
+	- to restore okular bookmarks
+	- to remove monitor problem
+	- to configure Vim , mouse has to work as in other terminal
+	- to continue /opt files list (Documrnts/doc/ls_gena_opt.txt 
 		for next Ubuntu installation.
-- reinstall Ubuntu; which version?
+	- is it time to recharge laptop's battery?
 - to Israel visit:
 	avia tickets;
 	to write and send embassy request (a kind of visa);
@@ -19,6 +26,7 @@
 	to take contacts paper;
 	to clear mobile phone data? or to take other one?
 	to clear question about old dollars/euro exchange.
+	to scroll telegram saved messages to read what to do before visit
 - hebrew learning
 - money's date of issue is fulfilled, to verify sum and to group them
  	in conformance with dates.

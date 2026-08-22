@@ -7,15 +7,9 @@
 - to byu gifts for Nina and Sonya
 
 - to complete Ubuntu reinstalling
-	- to clone all github repos
-	- to make virtual displays
 	- to copy books dir from usb disk
 	- to restore okular bookmarks
-	- to remove monitor problem
-	- to configure Vim , mouse has to work as in other terminal
-	- to continue /opt files list (Documrnts/doc/ls_gena_opt.txt 
-		for next Ubuntu installation.
-	- is it time to recharge laptop's battery?
+	- to restore /opt files, list is in Documrnts/doc/ls_gena_opt.txt 
 - to Israel visit:
 	avia tickets;
 	to write and send embassy request (a kind of visa);

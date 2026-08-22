@@ -939,6 +939,12 @@ sane-find-scanner
 21. man search:
 apropos <text>
 
+22. Ubuntu multitasking:
+22.1. Multidisplays
+    options in Ubuntu settings displays menu
+22. Multi workspaces
+     Ubuntu settings dilplays menu, 'workspaces'
+
 X. Github repo
 git remote add origin https://github.com/gkurtsman/devices_detection.git
 git branch -M main

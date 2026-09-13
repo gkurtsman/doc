@@ -3,15 +3,16 @@
 	tg channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
-- to fix FireFox sound:
-        https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds
-- to complete Ubuntu reinstalling
-	- to restore okular bookmarks
-	- to restore /opt files, list is in Documrnts/doc/ls_gena_opt.txt 
+    "shma"to
+    to download "rolevye modeli"
+- MTS and Beeline: price of long-distance call.
 - to Israel visit:
+    IMPORTANT: list of actions in Telegram, 'saved messages', February, 11.
 	avia tickets;
 	to write and send embassy request (a kind of visa);
-	to check freedom bank cards valitity
+    medicines;
+	to check freedom bank cards valitity;
+    to know how to speak at passport control, law: rights and duties;
 	hotel reservations; 
 	medical insurance. How to?
 	to call to bank call-cetner;
@@ -19,6 +20,12 @@
 	to clear mobile phone data? or to take other one?
 	to clear question about old dollars/euro exchange.
 	to scroll telegram saved messages to read what to do before visit
+- to fix FireFox sound:
+        https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds
+- to complete Ubuntu reinstalling
+	- to restore /opt files, list is in Documrnts/doc/ls_gena_opt.txt 
+    - to clear place on usb disk removing old backups and.
+        to double fresh backup_laptop file
 - hebrew learning
 - money's date of issue is fulfilled, to verify sum and to group them
  	in conformance with dates.

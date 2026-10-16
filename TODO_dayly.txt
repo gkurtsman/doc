@@ -1,44 +1,42 @@
 ﻿- after comp switch on:
 	$ rate
 	tg channels
+	whatsapp channels
 	to read mail.ru,mail.yahoo.com, gmail.com
 	to monitor disk free space
     "shma"to
     to download "rolevye modeli"
+- openvino build stopped at point 4. cmake -DCMAKE_BUILD_TYPE=
 - MGTS
     how to pay
         from abroad
 - ask rabby Gedalia about jewish traditions and religion:
     a) before Abraham's testament;
     b) between a) and Moshe's tora.
+
 - to Israel visit:
     
     IMPORTANT: list of actions in Telegram, 'saved messages', February, 11.
     
     DB call centre:
         810 972 3 943 9111 
-            for talking to have:
-            account requisites;
-			passport;
-			old bank card;
-			pen, paper;
-		ask:
-			I need to get new card:
-				how to order if needed?
-				how much time to wait?
-				should I to order visit? How?
-	medical insurance.
-	avia tickets;
-	to write and send embassy request (a kind of visa);
-    to take medicines;
-	to check freedom bank cards valitity;
+	+ avia tickets;
 	hotel reservations; 
-	to call to bank call-cetner;
+	medical insurance.
+	+ to write and send embassy request (a kind of visa);
+    to take medicines;
+	+ e-sim, what is it?
+	to check freedom bank cards valitity;
+	varfarin and roksera; HOW TO AT BOARD CUSTOMS?
     to know how to speak at passport control, law: rights and duties;
+	+ to call to bank call-cetner;
 	to take contacts paper;
 	to clear mobile phone data? or to take other one?
 	to clear question about old dollars/euro exchange.
+	to pay communal payments and tax.
 	to scroll telegram saved messages to read what to do before visit
+	to buy office comp in Israel.
+	to replay Mila's phone number in Discount bank by my one.
 - to fix FireFox sound:
         https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds
 - to complete Ubuntu reinstalling

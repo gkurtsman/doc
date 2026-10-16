@@ -1,0 +1,9 @@
+concerning site:
+
+
+concerning bank
+- получить карту взамен истекшей.
+- оформить Telebank
+- оформить мобильный банк
+- оформить DiscountMail
+

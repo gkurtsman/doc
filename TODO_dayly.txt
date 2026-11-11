@@ -5,12 +5,11 @@
 	to monitor disk free space
     "shma"
     to download "rolevye modeli"
-- to buy shop list
-- github PAT renew.
 - to take money from FB;
 - to look at DB account sums and spending in Israel
 - to look at DB remote banking items
 - to transfer money from DB to FB and to TB, look at commot comission.
+- teeth prosthesis
 - what problem may be on board with 2nd citizenship? If they are minor, to arrange it.
 - openvino build stopped at point 4. cmake -DCMAKE_BUILD_TYPE=
 - to fix FireFox sound:
